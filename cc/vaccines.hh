@@ -6,7 +6,7 @@
 
 namespace acmacs::whocc::inline v1
 {
-    enum class vaccine_type { previous, current, surrogate };
+    enum class vaccine_type { previous, current, surrogate, any };
 
     class error : public std::runtime_error { public: using std::runtime_error::runtime_error; };
 

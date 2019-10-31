@@ -93,6 +93,8 @@ std::string acmacs::whocc::v1::Vaccine::type_as_string(vaccine_type a_type)
           return "current";
       case vaccine_type::surrogate:
           return "surrogate";
+      case vaccine_type::any:
+          return "any";
     }
     return {};
 
@@ -108,6 +110,8 @@ acmacs::whocc::v1::vaccine_type acmacs::whocc::v1::Vaccine::type_from_string(std
         return vaccine_type::current;
     else if (a_type == "surrogate")
         return vaccine_type::surrogate;
+    else if (a_type.empty() || a_type == "any")
+        return vaccine_type::any;
     fmt::print(stderr, "WARNING: invalid vaccine type: \"{}|', \"previous\" assumed\n", a_type);
     return vaccine_type::previous;
 
