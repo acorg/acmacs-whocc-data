@@ -6,6 +6,7 @@
 #include "acmacs-base/filesystem.hh"
 #include "acmacs-base/acmacsd.hh"
 #include "acmacs-base/settings.hh"
+#include "acmacs-chart-2/chart.hh"
 #include "acmacs-whocc-data/vaccines.hh"
 
 // see ~/AD/share/conf/vaccines.json
@@ -111,9 +112,6 @@ acmacs::whocc::v1::vaccine_type acmacs::whocc::v1::Vaccine::type_from_string(std
     return vaccine_type::previous;
 
 } // acmacs::whocc::v1::Vaccine::type_from_string
-
-// ----------------------------------------------------------------------
-
 
 // ----------------------------------------------------------------------
 /// Local Variables:
