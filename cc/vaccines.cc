@@ -66,16 +66,17 @@ namespace acmacs::whocc::inline v1
 #pragma GCC diagnostic ignored "-Wglobal-constructors"
 #pragma GCC diagnostic ignored "-Wexit-time-destructors"
 #endif
-static std::mutex sVaccineMutex;
+static std::once_flag sVaccineOnceFlag;
 static std::unique_ptr<acmacs::whocc::v1::VaccineData> sVaccines;
 #pragma GCC diagnostic pop
 
 const acmacs::whocc::v1::vaccine_names_t& acmacs::whocc::v1::vaccine_names(const acmacs::virus::type_subtype_t& virus_type, const acmacs::virus::lineage_t& lineage)
 {
-    {
-        std::lock_guard<std::mutex> vaccine_guard{sVaccineMutex};
-        if (!sVaccines)
-            sVaccines = std::make_unique<VaccineData>();
+    if (!sVaccines) {
+        std::call_once(sVaccineOnceFlag, []() {
+            if (!sVaccines)
+                sVaccines = std::make_unique<VaccineData>();
+        });
     }
 
     return sVaccines->find(fmt::format("{}{}", virus_type, lineage));
