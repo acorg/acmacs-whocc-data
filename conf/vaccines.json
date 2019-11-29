@@ -62,7 +62,7 @@
   {"?N": "vaccine", "name": "SOUTH AUSTRALIA/81/2012",  "vaccine_type": "surrogate"},
   {"?N": "vaccine", "name": "IRELAND/3154/2016",        "vaccine_type": "surrogate"},
   {"N": "vaccine", "name": "WASHINGTON/2/2019",        "vaccine_type": "current", "vaccine_year": "2019-09"},
-  {"N": "vaccine", "name": "SICHUAN GAOXIN/531/2018",  "vaccine_type": "current", "vaccine_year": "2019-09"}
+  {"?N": "vaccine", "name": "SICHUAN GAOXIN/531/2018",  "vaccine_type": "current", "vaccine_year": "2019-09"}
  ],
 
  "vaccines-BYAMAGATA": [
