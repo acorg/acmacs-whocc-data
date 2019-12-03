@@ -36,12 +36,12 @@ namespace acmacs::whocc::inline v1
             }
         }
 
-        bool apply_built_in(std::string_view name) override // returns true if built-in command with that name found and applied
+        bool apply_built_in(std::string_view name, verbose verb) override // returns true if built-in command with that name found and applied
         {
             if (name == "vaccine")
                 data_[current_virus_type_].emplace_back(getenv("name", ""), Vaccine::type_from_string(getenv("vaccine_type", "")));
             else
-                return acmacs::settings::Settings::apply_built_in(name);
+                return acmacs::settings::Settings::apply_built_in(name, verb);
             return true;
         }
 
