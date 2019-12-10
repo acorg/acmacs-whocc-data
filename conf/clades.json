@@ -1,10 +1,7 @@
 {"_": "-*- js-indent-level: 1 -*-",
 
  "init": [
-  {"?N": "set",
-   "clade_section_inclusion_tolerance": 10,
-   "clade_section_exclusion_tolerance": 5
-  }
+  {"?N": "set"}
  ],
 
  "clades-A(H1N1)PDM09": [
