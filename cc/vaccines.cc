@@ -30,7 +30,7 @@ namespace acmacs::whocc::inline v1
 
             using pp = std::pair<std::string, std::string_view>;
             for (const auto& [virus_type, tag] :
-                 {pp{"A(H1N1)"s, "vaccines-A(H1N1)PDM09"sv}, pp{"A(H3N2)"s, "vaccines-A(H3N2)"sv}, pp{"BVICTORIA"s, "vaccines-BVICTORIA"sv}, pp{"BYAMAGATA"s, "vaccines-BYAMAGATA"sv}}) {
+                 {pp{"A(H1N1)PDM09"s, "vaccines-A(H1N1)PDM09"sv}, pp{"A(H3N2)"s, "vaccines-A(H3N2)"sv}, pp{"BVICTORIA"s, "vaccines-BVICTORIA"sv}, pp{"BYAMAGATA"s, "vaccines-BYAMAGATA"sv}}) {
                 current_virus_type_ = virus_type;
                 apply(tag, acmacs::verbose::no);
             }
