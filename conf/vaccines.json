@@ -13,10 +13,6 @@
   {"N": "vaccine", "name": "MICHIGAN/45/2015",         "vaccine_type": "previous"},
   {"N": "vaccine", "name": "BRISBANE/2/2018",          "vaccine_type": "current", "vaccine_year": "2019-02"}
  ],
- "vaccines-A(H1N1)": [
-  "? required by /ads/chain engine",
-  "vaccines-A(H1N1)PDM09"
- ],
 
  "vaccines-A(H3N2)": [
   {"N": "vaccine", "name": "PORT CHALMERS/1/1973",     "vaccine_type": "previous", "vaccine_year": "1974?"},
@@ -77,7 +73,7 @@
  ],
 
  "?": "-------------------- H1 seasonal --------------------",
- "?vaccines-A(H1N1)": [
+ "vaccines-A(H1N1)": [
   {"N": "vaccine", "name": "USSR/90/1977",             "vaccine_type": "previous", "vaccine_year": "1978"},
   {"N": "vaccine", "name": "BRAZIL/11/1978",           "vaccine_type": "previous", "vaccine_year": "1980"},
   {"N": "vaccine", "name": "CHILE/1/1983",             "vaccine_type": "previous", "vaccine_year": "1984"},

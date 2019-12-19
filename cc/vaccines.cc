@@ -30,7 +30,7 @@ namespace acmacs::whocc::inline v1
 
             using pp = std::pair<std::string, std::string_view>;
             for (const auto& [virus_type, tag] :
-                 {pp{"A(H1N1)PDM09"s, "vaccines-A(H1N1)PDM09"sv}, pp{"A(H3N2)"s, "vaccines-A(H3N2)"sv}, pp{"BVICTORIA"s, "vaccines-BVICTORIA"sv}, pp{"BYAMAGATA"s, "vaccines-BYAMAGATA"sv}}) {
+                 {pp{"A(H1N1)PDM09"s, "vaccines-A(H1N1)PDM09"sv}, pp{"A(H1N1)"s, "vaccines-A(H1N1)PDM09"sv}, pp{"A(H3N2)"s, "vaccines-A(H3N2)"sv}, pp{"BVICTORIA"s, "vaccines-BVICTORIA"sv}, pp{"BYAMAGATA"s, "vaccines-BYAMAGATA"sv}}) {
                 current_virus_type_ = virus_type;
                 apply(tag, acmacs::verbose::no);
             }
@@ -49,7 +49,9 @@ namespace acmacs::whocc::inline v1
         {
             if (const auto found = data_.find(virus_type); found != data_.end())
                 return found->second;
-            throw error(fmt::format("No vaccines defined for \"{}\"", virus_type));
+            std::vector<std::string_view> virus_types(data_.size());
+            std::transform(std::begin(data_), std::end(data_), std::begin(virus_types), [](const auto& en) -> std::string_view { return en.first; });
+            throw error(fmt::format("No vaccines defined for \"{}\", available virus types: {}", virus_type, virus_types));
         }
 
       private:
