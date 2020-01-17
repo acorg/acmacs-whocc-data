@@ -5,19 +5,31 @@
  ],
 
  "clades-A(H1N1)PDM09": [
-  {"N": "clade", "name": "6B",    "substitutions": ["163Q"]},
-  {"N": "clade", "name": "6B1",   "substitutions": ["162N", "163Q"]},
-  {"N": "clade", "name": "6B1.A", "substitutions": [ "74R", "163Q", "164T", "295V"]},
-  {"N": "clade", "name": "6B2",   "substitutions": ["152T", "163Q"]},
+  {"N": "clade", "name": "6B",    "aa": ["163Q"]},
+  {"N": "clade", "name": "6B1",   "aa": ["162N", "163Q"]},
+  {"N": "clade", "name": "6B1.A", "aa": [ "74R", "163Q", "164T", "295V"]},
+  {"N": "clade", "name": "6B2",   "aa": ["152T", "163Q"]},
 
-  {"N": "clade", "name": "183P",     "substitutions": ["183P"]},
-  {"N": "clade", "name": "183P-1",   "substitutions": ["183P", "120T", "233L", "141A", "260N", "302K"], "?exclusion_tolerance": 20},
-  {"N": "clade", "name": "183P-2",   "substitutions": ["183P", "233I"]},
-  {"N": "clade", "name": "183P-3/6", "substitutions": ["183P", "120A"],                                 "?exclusion_tolerance": 15},
-  {"N": "clade", "name": "183P-4",   "substitutions": ["183P", "141E"]},
-  {"N": "clade", "name": "183P-5",   "substitutions": ["183P", "260D"]},
-  {"N": "clade", "name": "183P-5A",  "substitutions": ["183P", "129D", "260D"]},
-  {"N": "clade", "name": "183P-7",   "substitutions": ["183P", "302T"]},
+  {"? 6B1.A 183P subclades": "------------------------------------------------------------"},
+  {"N": "clade", "name": "aa-183P",     "aa": ["183P"]},
+  {"N": "clade", "name": "aa-183P-1",   "aa": ["183P", "120T", "233L", "141A", "260N", "302K"], "?exclusion_tolerance": 20},
+  {"N": "clade", "name": "aa-183P-2",   "aa": ["183P", "233I"]},
+  {"N": "clade", "name": "aa-183P-3/6", "aa": ["183P", "120A"],                                 "?exclusion_tolerance": 15},
+  {"N": "clade", "name": "aa-183P-4",   "aa": ["183P", "141E"]},
+  {"N": "clade", "name": "aa-183P-5",   "aa": ["183P", "260D"]},
+  {"N": "clade", "name": "aa-183P-5A",  "aa": ["183P", "129D", "260D"]},
+  {"N": "clade", "name": "aa-183P-7",   "aa": ["183P", "302T"]},
+
+  {"? nextflu 2020-01-17": "https://github.com/nextstrain/seasonal-flu/blob/master/config/clades_h1n1pdm_ha.tsv"},
+  {"N": "clade", "name": "183P-1", "nuc": ["1703A", "384C", "618C", "1010G"]},
+  {"N": "clade", "name": "183P-2", "nuc": ["49G", "618C", "704A", "1460A"]},
+  {"N": "clade", "name": "183P-3", "nuc": ["425A", "618C"]},
+  {"N": "clade", "name": "183P-4", "nuc": ["410A", "456G", "493A", "618C", "1205G", "1577G"]},
+  {"N": "clade", "name": "183P-5", "nuc": ["618C", "1364C", "1487C"]},
+  {"N": "clade", "name": "183P-6", "nuc": ["209A", "536G", "618C", "1403T"]},
+  {"N": "clade", "name": "183P-7", "nuc": ["317G", "976C", "1558G"]},
+
+  {"? end H1": ""}
  ],
 
  "clades-A(H1N1)": [
@@ -25,43 +37,43 @@
  ],
 
  "clades-A(H3N2)": [
-  {"N": "clade", "name": "3C.3",    "display_name": "3C.3", "substitutions": ["158N", "159F"]},
-  {"N": "clade", "name": "3C.3A",   "display_name": "3a",   "substitutions": ["138S", "159S", "225D"], "?": "R326K causes split in the tree for 2019-0814-tc1, removed on 2019-08-21 326R"},
-  {"N": "clade", "name": "3C.3B",   "display_name": "3b",   "substitutions": [ "62K",  "83R", "261Q"]},
-  {"N": "clade", "name": "3C.2A",   "display_name": "2a",   "substitutions": ["158N", "159Y"]},
-  {"N": "clade", "name": "3C.2A1",  "display_name": "2a1",  "substitutions": ["158N", "159Y", "171K", "406V"]},
-  {"N": "clade", "name": "3C.2A1A", "display_name": "2a1a", "substitutions": ["121K", "135K", "158N", "159Y", "171K", "406V", "479E"]},
-  {"N": "clade", "name": "3C.2A1B", "display_name": "2a1b", "substitutions": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V"], "?inclusion_tolerance": "{clade_section_inclusion_tolerance}", "?exclusion_tolerance": "{clade_section_exclusion_tolerance}"},
-  {"N": "clade", "name": "3C.2A2",  "display_name": "2a2",  "substitutions": ["131K", "142K", "158N", "159Y", "261Q"]},
-  {"N": "clade", "name": "3C.2A3",  "display_name": "2a3",  "substitutions": ["121K", "135K", "144K", "150K", "158N", "159Y", "261Q"]},
-  {"N": "clade", "name": "3C.2A4",  "display_name": "2a4",  "substitutions": [ "31S",  "53N", "142G", "144R", "158N", "159Y", "171K", "192T", "197H"]},
+  {"N": "clade", "name": "3C.3",    "display_name": "3C.3", "aa": ["158N", "159F"]},
+  {"N": "clade", "name": "3C.3A",   "display_name": "3a",   "aa": ["138S", "159S", "225D"], "?": "R326K causes split in the tree for 2019-0814-tc1, removed on 2019-08-21 326R"},
+  {"N": "clade", "name": "3C.3B",   "display_name": "3b",   "aa": [ "62K",  "83R", "261Q"]},
+  {"N": "clade", "name": "3C.2A",   "display_name": "2a",   "aa": ["158N", "159Y"]},
+  {"N": "clade", "name": "3C.2A1",  "display_name": "2a1",  "aa": ["158N", "159Y", "171K", "406V"]},
+  {"N": "clade", "name": "3C.2A1A", "display_name": "2a1a", "aa": ["121K", "135K", "158N", "159Y", "171K", "406V", "479E"]},
+  {"N": "clade", "name": "3C.2A1B", "display_name": "2a1b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V"], "?inclusion_tolerance": "{clade_section_inclusion_tolerance}", "?exclusion_tolerance": "{clade_section_exclusion_tolerance}"},
+  {"N": "clade", "name": "3C.2A2",  "display_name": "2a2",  "aa": ["131K", "142K", "158N", "159Y", "261Q"]},
+  {"N": "clade", "name": "3C.2A3",  "display_name": "2a3",  "aa": ["121K", "135K", "144K", "150K", "158N", "159Y", "261Q"]},
+  {"N": "clade", "name": "3C.2A4",  "display_name": "2a4",  "aa": [ "31S",  "53N", "142G", "144R", "158N", "159Y", "171K", "192T", "197H"]},
 
   {"?N": "?", "comment": "2A1 clades before 2020-01-13, 484E was removed from clade definitions on Sarah's request 2020-01-13 17:03 Subject: H3 tree, 2a1b, 3a"},
-  {"?N": "clade", "name": "3C.2A1",  "display_name": "2a1",  "substitutions": ["158N", "159Y", "171K", "406V", "484E"]},
-  {"?N": "clade", "name": "3C.2A1A", "display_name": "2a1a", "substitutions": ["121K", "135K", "158N", "159Y", "171K", "406V", "479E", "484E"]},
-  {"?N": "clade", "name": "3C.2A1B", "display_name": "2a1b", "substitutions": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V", "484E"], "?inclusion_tolerance": "{clade_section_inclusion_tolerance}", "?exclusion_tolerance": "{clade_section_exclusion_tolerance}"},
+  {"?N": "clade", "name": "3C.2A1",  "display_name": "2a1",  "aa": ["158N", "159Y", "171K", "406V", "484E"]},
+  {"?N": "clade", "name": "3C.2A1A", "display_name": "2a1a", "aa": ["121K", "135K", "158N", "159Y", "171K", "406V", "479E", "484E"]},
+  {"?N": "clade", "name": "3C.2A1B", "display_name": "2a1b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V", "484E"], "?inclusion_tolerance": "{clade_section_inclusion_tolerance}", "?exclusion_tolerance": "{clade_section_exclusion_tolerance}"},
 
-  {"?N": "clade", "name": "3C.2A1B-135K", "display_name": "2A1B-135K", "substitutions": ["92R", "121K", "135K", "158N", "159Y", "171K", "311Q", "406V", "484E"]},
-  {"?N": "clade", "name": "3C.2A1B-135K-137F-193S", "display_name": "2A1B-135K-137F-193S", "substitutions": ["92R", "121K", "135K", "137F", "158N", "159Y", "171K", "193S", "311Q", "406V", "484E"]},
-  {"?N": "clade", "name": "3C.2A1B-131K", "display_name": "2A1B-131K", "substitutions": ["92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V", "484E"]},
+  {"?N": "clade", "name": "3C.2A1B-135K", "display_name": "2A1B-135K", "aa": ["92R", "121K", "135K", "158N", "159Y", "171K", "311Q", "406V", "484E"]},
+  {"?N": "clade", "name": "3C.2A1B-135K-137F-193S", "display_name": "2A1B-135K-137F-193S", "aa": ["92R", "121K", "135K", "137F", "158N", "159Y", "171K", "193S", "311Q", "406V", "484E"]},
+  {"?N": "clade", "name": "3C.2A1B-131K", "display_name": "2A1B-131K", "aa": ["92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V", "484E"]},
 
-  {"?N": "clade", "name": "159S", "substitutions": ["159S"], "?": "explicit Derek's request on 2019-04-18"},
-  {"?N": "clade", "name": "159F", "substitutions": ["159F"], "?": "explicit Derek's request on 2019-04-18"},
-  {"?N": "clade", "name": "159Y", "substitutions": ["159Y"], "?": "explicit Derek's request on 2019-04-18"}
+  {"?N": "clade", "name": "159S", "aa": ["159S"], "?": "explicit Derek's request on 2019-04-18"},
+  {"?N": "clade", "name": "159F", "aa": ["159F"], "?": "explicit Derek's request on 2019-04-18"},
+  {"?N": "clade", "name": "159Y", "aa": ["159Y"], "?": "explicit Derek's request on 2019-04-18"}
  ],
 
  "clades-BVICTORIA": [
-  {"N": "clade", "name": "V1A", "substitutions": ["!58P", "75K", "172P"]},
-  {"N": "clade", "name": "V1B", "substitutions": ["58P"]},
+  {"N": "clade", "name": "V1A", "aa": ["!58P", "75K", "172P"]},
+  {"N": "clade", "name": "V1B", "aa": ["58P"]},
 
-  {"N": "clade", "name": "2DEL2017", "display_name": "2del", "substitutions": ["162-", "163-", "!164-"]},
-  {"N": "clade", "name": "3DEL2017", "display_name": "3del", "substitutions": ["162-", "163-",  "164-", "!165-"]},
-  {"N": "clade", "name": "6DEL2019", "display_name": "6del", "substitutions": ["162-", "163-",  "164-",  "165-", "166-", "167-"]}
+  {"N": "clade", "name": "2DEL2017", "display_name": "2del", "aa": ["162-", "163-", "!164-"]},
+  {"N": "clade", "name": "3DEL2017", "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-"]},
+  {"N": "clade", "name": "6DEL2019", "display_name": "6del", "aa": ["162-", "163-",  "164-",  "165-", "166-", "167-"]}
  ],
 
  "clades-BYAMAGATA": [
-  {"N": "clade", "name": "Y2", "substitutions": ["166N"]},
-  {"N": "clade", "name": "Y3", "substitutions": ["166Y"]},
-  {"?N": "clade", "name": "TAIWAN2010", "substitutions": ["169-", "170-"], "?": "12 sequences from TAIWAN 2010 have deletions 169:2, perhaps they are not YAMAGATA"}
+  {"N": "clade", "name": "Y2", "aa": ["166N"]},
+  {"N": "clade", "name": "Y3", "aa": ["166Y"]},
+  {"?N": "clade", "name": "TAIWAN2010", "aa": ["169-", "170-"], "?": "12 sequences from TAIWAN 2010 have deletions 169:2, perhaps they are not YAMAGATA"}
  ]
 }
