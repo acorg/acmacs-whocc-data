@@ -21,14 +21,14 @@
   {"N": "clade", "name": "183P-7",   "aa": ["183P", "302T"]},
 
   {"?N": "nextflu 2020-01-17 https://github.com/nextstrain/seasonal-flu/blob/master/config/clades_h1n1pdm_ha.tsv"},
-  {"?N": "nextflu uses nuc pos based on their references strain A/CALIFORNIA/7/2009, need to subtract 69 from their nuc pos to get our (seq start based) nuc pos"},
-  {"N": "clade", "name": "nextflu-183P-1", "nuc": ["1634A", "315C", "549C", "941G"]},
-  {"N": "clade", "name": "nextflu-183P-2", "nuc": ["549C", "635A", "1391A"]},
-  {"N": "clade", "name": "nextflu-183P-3", "nuc": ["356A", "549C"]},
-  {"N": "clade", "name": "nextflu-183P-4", "nuc": ["341A", "387G", "424A", "549C", "1136G", "1508G"]},
-  {"N": "clade", "name": "nextflu-183P-5", "nuc": ["549C", "1295C", "1418C"]},
-  {"N": "clade", "name": "nextflu-183P-6", "nuc": ["140A", "467G", "549C", "1334T"]},
-  {"N": "clade", "name": "nextflu-183P-7", "nuc": ["248G", "907C", "1489G"]},
+  {"?N": "nextflu uses nuc pos based on their references strain A/CALIFORNIA/7/2009, need to subtract 71 from their nuc pos to get our (seq start based) nuc pos"},
+  {"N": "clade", "name": "nextflu-183P-1", "nuc": ["1632A", "313C", "547C", "939G"]},
+  {"N": "clade", "name": "nextflu-183P-2", "nuc": ["547C", "633A", "1389A"]},
+  {"N": "clade", "name": "nextflu-183P-3", "nuc": ["354A", "547C"]},
+  {"N": "clade", "name": "nextflu-183P-4", "nuc": ["339A", "385G", "422A", "547C", "1134G", "1506G"]},
+  {"N": "clade", "name": "nextflu-183P-5", "nuc": ["547C", "1293C", "1416C"]},
+  {"N": "clade", "name": "nextflu-183P-6", "nuc": ["138A", "465G", "547C", "1332T"]},
+  {"N": "clade", "name": "nextflu-183P-7", "nuc": ["246G", "905C", "1487G"]},
 
   {"?N": "end H1"}
  ],
