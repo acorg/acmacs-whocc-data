@@ -53,10 +53,10 @@
   {"?N": "vaccine", "name": "SAITAMA/103/2014",         "vaccine_type": "surrogate"},
   {"?N": "vaccine", "name": "HONG KONG/7295/2014",      "vaccine_type": "surrogate"},
   {"N": "vaccine", "name": "SOUTH AUSTRALIA/34/2019",  "vaccine_type": "current", "vaccine_year": "2019-09"},
-  {"?N": "vaccine", "name": "IOWA/60/2018",  "vaccine_type": "current", "vaccine_year": "2019-09"}
+  {"?N": "vaccine", "name": "IOWA/60/2018",  "vaccine_type": "current", "vaccine_year": "2019-09"},
   {"N": "vaccine", "name": "HONG KONG/2671/2019",  "passage": "egg",         "vaccine_type": "current", "vaccine_year": "2020-02"},
   {"N": "vaccine", "name": "HONG KONG/45/2019",    "passage": "cell",        "vaccine_type": "current", "vaccine_year": "2020-02"},
-  {"N": "vaccine", "name": "HONG KONG/45/2019",    "passage": "reassortant", "vaccine_type": "current", "vaccine_year": "2020-02"},
+  {"N": "vaccine", "name": "HONG KONG/45/2019",    "passage": "reassortant", "vaccine_type": "current", "vaccine_year": "2020-02"}
  ],
 
  "vaccines-BVICTORIA": [
