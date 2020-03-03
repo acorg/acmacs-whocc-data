@@ -18,9 +18,9 @@ namespace acmacs::whocc::inline v1
         std::string name;
         vaccine_type type;
 
-        std::string type_as_string() const { return type_as_string(type); }
+        std::string_view type_as_string() const { return type_as_string(type); }
 
-        static std::string type_as_string(vaccine_type a_type);
+        static std::string_view type_as_string(vaccine_type a_type);
         static vaccine_type type_from_string(std::string_view a_type);
 
     }; // class Vaccine

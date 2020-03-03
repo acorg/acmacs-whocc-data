@@ -1,10 +1,12 @@
 {"_": "-*- js-indent-level: 1 -*-",
 
- "?sources": [
+ "? sources": [
   "https://www.fludb.org/brc/vaccineRecommend.spg?decorator=influenza",
   "https://www.who.int/influenza/vaccines/virus/recommendations/en/"
  ],
 
+ "? updating in c3": "see at the end of chains.org",
+ 
  "init": [
  ],
 

@@ -87,17 +87,18 @@ const acmacs::whocc::v1::vaccine_names_t& acmacs::whocc::v1::vaccine_names(const
 
 // ----------------------------------------------------------------------
 
-std::string acmacs::whocc::v1::Vaccine::type_as_string(vaccine_type a_type)
+std::string_view acmacs::whocc::v1::Vaccine::type_as_string(vaccine_type a_type)
 {
+    using namespace std::string_view_literals;
     switch (a_type) {
       case vaccine_type::previous:
-          return "previous";
+          return "previous"sv;
       case vaccine_type::current:
-          return "current";
+          return "current"sv;
       case vaccine_type::surrogate:
-          return "surrogate";
+          return "surrogate"sv;
       case vaccine_type::any:
-          return "any";
+          return "any"sv;
     }
     return {};
 
@@ -107,13 +108,14 @@ std::string acmacs::whocc::v1::Vaccine::type_as_string(vaccine_type a_type)
 
 acmacs::whocc::v1::vaccine_type acmacs::whocc::v1::Vaccine::type_from_string(std::string_view a_type)
 {
-    if (a_type == "previous")
+    using namespace std::string_view_literals;
+    if (a_type == "previous"sv)
         return vaccine_type::previous;
-    else if (a_type == "current")
+    else if (a_type == "current"sv)
         return vaccine_type::current;
-    else if (a_type == "surrogate")
+    else if (a_type == "surrogate"sv)
         return vaccine_type::surrogate;
-    else if (a_type.empty() || a_type == "any")
+    else if (a_type.empty() || a_type == "any"sv)
         return vaccine_type::any;
     fmt::print(stderr, "WARNING: invalid vaccine type: \"{}|', \"previous\" assumed\n", a_type);
     return vaccine_type::previous;
