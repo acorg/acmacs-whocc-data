@@ -32,16 +32,16 @@ namespace acmacs::whocc::inline v1
             for (const auto& [virus_type, tag] :
                  {pp{"A(H1N1)PDM09"s, "vaccines-A(H1N1)PDM09"sv}, pp{"A(H1N1)"s, "vaccines-A(H1N1)PDM09"sv}, pp{"A(H3N2)"s, "vaccines-A(H3N2)"sv}, pp{"BVICTORIA"s, "vaccines-BVICTORIA"sv}, pp{"BYAMAGATA"s, "vaccines-BYAMAGATA"sv}}) {
                 current_virus_type_ = virus_type;
-                apply(tag, acmacs::verbose::no);
+                apply(tag);
             }
         }
 
-        bool apply_built_in(std::string_view name, verbose verb) override // returns true if built-in command with that name found and applied
+        bool apply_built_in(std::string_view name) override // returns true if built-in command with that name found and applied
         {
             if (name == "vaccine")
                 data_[current_virus_type_].emplace_back(getenv("name", ""), Vaccine::type_from_string(getenv("vaccine_type", "")));
             else
-                return acmacs::settings::Settings::apply_built_in(name, verb);
+                return acmacs::settings::Settings::apply_built_in(name);
             return true;
         }
 
