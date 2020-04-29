@@ -38,8 +38,9 @@ namespace acmacs::whocc::inline v1
 
         bool apply_built_in(std::string_view name) override // returns true if built-in command with that name found and applied
         {
-            if (name == "vaccine")
-                data_[current_virus_type_].emplace_back(getenv("name", ""), Vaccine::type_from_string(getenv("vaccine_type", "")));
+            using namespace std::string_view_literals;
+            if (name == "vaccine"sv)
+                data_[current_virus_type_].emplace_back(getenv("name"sv, ""sv), Vaccine::type_from_string(getenv("vaccine_type"sv, ""sv)));
             else
                 return acmacs::settings::Settings::apply_built_in(name);
             return true;
