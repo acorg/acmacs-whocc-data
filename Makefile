@@ -5,7 +5,7 @@ TARGETS = \
   $(ACMACS_WHOCC_DATA_LIB)
 
 SOURCES = \
-  vaccines.cc
+  vaccines.cc labs.cc
 
 # ----------------------------------------------------------------------
 

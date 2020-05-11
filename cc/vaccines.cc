@@ -64,14 +64,10 @@ namespace acmacs::whocc::inline v1
 
 // ----------------------------------------------------------------------
 
-#pragma GCC diagnostic push
-#ifdef __clang__
-#pragma GCC diagnostic ignored "-Wglobal-constructors"
-#pragma GCC diagnostic ignored "-Wexit-time-destructors"
-#endif
+#include "acmacs-base/global-constructors-push.hh"
 static std::once_flag sVaccineOnceFlag;
 static std::unique_ptr<acmacs::whocc::v1::VaccineData> sVaccines;
-#pragma GCC diagnostic pop
+#include "acmacs-base/diagnostics-pop.hh"
 
 const acmacs::whocc::v1::vaccine_names_t& acmacs::whocc::v1::vaccine_names(const acmacs::virus::type_subtype_t& virus_type, const acmacs::virus::lineage_t& lineage)
 {
