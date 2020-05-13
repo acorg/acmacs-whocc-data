@@ -6,7 +6,6 @@
 #include "acmacs-base/filesystem.hh"
 #include "acmacs-base/acmacsd.hh"
 #include "acmacs-base/settings.hh"
-#include "acmacs-chart-2/chart.hh"
 #include "acmacs-whocc-data/vaccines.hh"
 
 // see ~/AD/share/conf/vaccines.json

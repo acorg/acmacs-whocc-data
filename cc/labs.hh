@@ -1,12 +1,12 @@
 #pragma once
 
-#include "acmacs-chart-2/lab.hh"
+#include "acmacs-base/lab.hh"
 
 // ----------------------------------------------------------------------
 
 namespace acmacs::whocc::inline v1
 {
-    using Lab = acmacs::chart::Lab;
+    using Lab = acmacs::Lab;
 
     const Lab& lab_name_normalize(const Lab& lab);
     Lab lab_name_normalize(std::string_view lab);

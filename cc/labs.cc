@@ -17,7 +17,7 @@ namespace acmacs::whocc::inline v1
 
 // ----------------------------------------------------------------------
 
-const acmacs::chart::Lab& acmacs::whocc::v1::lab_name_normalize(const Lab& lab)
+const acmacs::Lab& acmacs::whocc::v1::lab_name_normalize(const Lab& lab)
 {
     if (lab == NIMR || lab == CRICK_U)
         return CRICK;
@@ -30,7 +30,7 @@ const acmacs::chart::Lab& acmacs::whocc::v1::lab_name_normalize(const Lab& lab)
 
 // ----------------------------------------------------------------------
 
-acmacs::chart::Lab acmacs::whocc::v1::lab_name_normalize(std::string_view lab)
+acmacs::Lab acmacs::whocc::v1::lab_name_normalize(std::string_view lab)
 {
     return lab_name_normalize(Lab{::string::upper(lab)});
 
@@ -38,7 +38,7 @@ acmacs::chart::Lab acmacs::whocc::v1::lab_name_normalize(std::string_view lab)
 
 // ----------------------------------------------------------------------
 
-const acmacs::chart::Lab& acmacs::whocc::v1::lab_name_old(const Lab& lab)
+const acmacs::Lab& acmacs::whocc::v1::lab_name_old(const Lab& lab)
 {
     if (lab == CRICK || lab == CRICK_U)
         return NIMR;
