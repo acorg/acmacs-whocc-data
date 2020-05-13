@@ -39,7 +39,7 @@ namespace acmacs::whocc::inline v1
         {
             using namespace std::string_view_literals;
             if (name == "vaccine"sv)
-                data_[current_virus_type_].emplace_back(getenv("name"sv, ""sv), Vaccine::type_from_string(getenv("vaccine_type"sv, ""sv)));
+                data_[current_virus_type_].emplace_back(getenv_or("name"sv, ""sv), Vaccine::type_from_string(getenv_or("vaccine_type"sv, ""sv)));
             else
                 return acmacs::settings::Settings::apply_built_in(name);
             return true;
