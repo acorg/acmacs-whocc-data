@@ -26,11 +26,11 @@ LDLIBS = \
 
 # ----------------------------------------------------------------------
 
-install: install-headers $(TARGETS)
+install: install-headers make-installation-dirs $(TARGETS)
 	$(call install_lib,$(ACMACS_WHOCC_DATA_LIB))
 	# ln -sf $(DIST)/* $(AD_BIN)
 	# ln -sf $(abspath bin)/* $(AD_BIN)
-	for jd in clades vaccines; do if [ ! -f $(AD_SHARE)/conf/$${jd}.json ]; then mkdir -p $(AD_SHARE)/conf; ln -sf $(abspath conf/$${jd}.json) $(AD_SHARE)/conf; fi; done
+	for jd in clades vaccines; do if [ ! -f $(AD_SHARE)/conf/$${jd}.json ]; then ln -sf $(abspath conf/$${jd}.json) $(AD_SHARE)/conf; fi; done
 
 test: install
 	@#test/test
