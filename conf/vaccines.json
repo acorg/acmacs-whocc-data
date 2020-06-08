@@ -6,7 +6,7 @@
  ],
 
  "? updating in c3": "see at the end of chains.org",
- 
+
  "init": [
  ],
 
@@ -24,7 +24,7 @@
  "vaccines-A(H1N1)2009pdm": [
    "vaccines-A(H1N1)PDM09"
  ],
-  
+
  "vaccines-A(H3N2)": [
   {"N": "vaccine", "name": "PORT CHALMERS/1/1973",     "vaccine_type": "previous", "vaccine_year": "1974?"},
   {"N": "vaccine", "name": "VICTORIA/3/1975",          "vaccine_type": "previous", "vaccine_year": "1976"},
