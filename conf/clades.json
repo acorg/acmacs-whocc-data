@@ -11,15 +11,15 @@
   {"N": "clade", "name": "6B2",   "aa": ["152T", "163Q"]},
 
   {"?N": "6B1.A 183P subclades ------------------------------------------------------------"},
-  {"N": "clade", "name": "183P",     "aa": ["183P"]},
-  {"N": "clade", "name": "183P-1",   "aa": ["183P", "120T", "233L", "141A", "260N", "302K"]},
-  {"N": "clade", "name": "183P-2",   "aa": ["183P", "233I"]},
-  {"N": "clade", "name": "183P-3/6", "aa": ["183P", "120A"]},
-  {"N": "clade", "name": "183P-4",   "aa": ["183P", "141E"]},
-  {"N": "clade", "name": "183P-5",   "aa": ["183P", "260D"]},
-  {"N": "clade", "name": "183P-5A",  "aa": ["183P", "129D", "260D"]},
-  {"N": "clade", "name": "183P-5B",  "aa": ["183P", "129N", "260D"]},
-  {"N": "clade", "name": "183P-7",   "aa": ["183P", "302T"]},
+  {"?N": "clade", "name": "183P",     "aa": ["183P"]},
+  {"?N": "clade", "name": "183P-1",   "aa": ["183P", "120T", "233L", "141A", "260N", "302K"]},
+  {"?N": "clade", "name": "183P-2",   "aa": ["183P", "233I"]},
+  {"?N": "clade", "name": "183P-3/6", "aa": ["183P", "120A"]},
+  {"?N": "clade", "name": "183P-4",   "aa": ["183P", "141E"]},
+  {"?N": "clade", "name": "183P-5",   "aa": ["183P", "260D"]},
+  {"?N": "clade", "name": "183P-5A",  "aa": ["183P", "129D", "260D"]},
+  {"?N": "clade", "name": "183P-5B",  "aa": ["183P", "129N", "260D"]},
+  {"?N": "clade", "name": "183P-7",   "aa": ["183P", "302T"]},
 
   {"?N": "nextflu 2020-01-17 https://github.com/nextstrain/seasonal-flu/blob/master/config/clades_h1n1pdm_ha.tsv"},
   {"?N": "nextflu uses nuc pos based on their references strain A/CALIFORNIA/7/2009, need to subtract 71 from their nuc pos to get our (seq start based) nuc pos"},
@@ -30,6 +30,13 @@
   {"?N": "clade", "name": "nextflu-183P-5", "nuc": ["547C", "1293C", "1416C"]},
   {"?N": "clade", "name": "nextflu-183P-6", "nuc": ["138A", "465G", "547C", "1332T"]},
   {"?N": "clade", "name": "nextflu-183P-7", "nuc": ["246G", "905C", "1487G"]},
+
+  "? clades 156 2020-08-10",
+  {"N": "clade", "name": "155E",     "aa": ["155E"]},
+  {"N": "clade", "name": "156D",     "aa": ["156D"]},
+  {"N": "clade", "name": "156S",     "aa": ["156S"]},
+  {"N": "clade", "name": "156K",     "aa": ["156K"]},
+  {"N": "clade", "name": "156N",     "aa": ["156N", "155G"]},
 
   {"?N": "end H1"}
  ],
