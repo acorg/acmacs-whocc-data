@@ -61,11 +61,11 @@
   {"N": "clade", "name": "3C.2A1B+193S", "display_name": "2a1b 193S", "aa": [ "92R", "121K", "158N", "159Y", "171K", "193S", "311Q", "406V"]},
 
   "? CDC clades in TC1 report 2020-08-11",
-  {"?N": "clade", "name": "3C.2A1B+131K",      "display_name": "2a1b +131K", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V"]},
-  {"?N": "clade", "name": "3C.2A1B+131K+94N",  "display_name": "2a1b +131K +94N", "aa": [ "92R",  "94N", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V"]},
-  {"?N": "clade", "name": "3C.2A1B+135K",      "display_name": "2a1b +135K", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "311Q", "406V"]},
-  {"?N": "clade", "name": "3C.2A1B+135K+137F", "display_name": "2a1b +135K +137F", "aa": [ "92R", "121K", "135K", "137F", "158N", "159Y", "171K", "311Q", "406V"]},
-  {"?N": "clade", "name": "3C.2A1B+135K+186D", "display_name": "2a1b +135K +186D", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "186D", "311Q", "406V"]},
+  {"N": "clade", "name": "3C.2A1B+131K",      "display_name": "2a1b +131K", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V"]},
+  {"N": "clade", "name": "3C.2A1B+131K+94N",  "display_name": "2a1b +131K +94N", "aa": [ "92R",  "94N", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V"]},
+  {"N": "clade", "name": "3C.2A1B+135K",      "display_name": "2a1b +135K", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "311Q", "406V"]},
+  {"N": "clade", "name": "3C.2A1B+135K+137F", "display_name": "2a1b +135K +137F", "aa": [ "92R", "121K", "135K", "137F", "158N", "159Y", "171K", "311Q", "406V"]},
+  {"N": "clade", "name": "3C.2A1B+135K+186D", "display_name": "2a1b +135K +186D", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "186D", "311Q", "406V"]},
 
   {"?N": "?", "comment": "2A1 clades before 2020-01-13, 484E was removed from clade definitions on Sarah's request 2020-01-13 17:03 Subject: H3 tree, 2a1b, 3a"},
   {"?N": "clade", "name": "3C.2A1",  "display_name": "2a1",  "aa": ["158N", "159Y", "171K", "406V", "484E"]},
