@@ -57,6 +57,9 @@
   {"N": "clade", "name": "3C.2A3",  "display_name": "2a3",  "aa": ["121K", "135K", "144K", "150K", "158N", "159Y", "261Q"]},
   {"N": "clade", "name": "3C.2A4",  "display_name": "2a4",  "aa": [ "31S",  "53N", "142G", "144R", "158N", "159Y", "171K", "192T", "197H"]},
 
+  "? CDC clades post VCM report 2020-09-21",
+  {"N": "clade", "name": "3C.2A1B+131K+197R", "display_name": "2a1b +131K +197R", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "197R", "311Q", "406V"]},
+
   "? CDC clades in TC2 report 2020-09-03",
   {"N": "clade", "name": "3C.2A1B+193S", "display_name": "2a1b 193S", "aa": [ "92R", "121K", "158N", "159Y", "171K", "193S", "311Q", "406V"]},
 
