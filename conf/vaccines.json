@@ -18,8 +18,11 @@
   {"N": "vaccine", "name": "GUANGDONG MAONAN/SWL1536/2019", "passage": "egg",         "vaccine_type": "current", "vaccine_year": "2020-02"},
   {"N": "vaccine", "name": "GUANGDONG MAONAN/1536/2019",    "passage": "egg",         "vaccine_type": "current", "vaccine_year": "2020-02"},
   {"N": "vaccine", "name": "HAWAII/70/2019",                "passage": "cell",        "vaccine_type": "current", "vaccine_year": "2020-02"},
-  {"N": "vaccine", "name": "HAWAII/70/2019",                "passage": "reassortant", "vaccine_type": "current", "vaccine_year": "2020-02"}
- ],
+  {"N": "vaccine", "name": "HAWAII/70/2019",                "passage": "reassortant", "vaccine_type": "current", "vaccine_year": "2020-02"},
+
+  {"N": "vaccine", "name": "VICTORIA/2570/2019",            "passage": "egg",         "vaccine_type": "current", "vaccine_year": "2020-09"},
+  {"N": "vaccine", "name": "WISCONSIN/588/2019",            "passage": "cell",        "vaccine_type": "current", "vaccine_year": "2020-09"}
+],
 
  "vaccines-A(H1N1)2009pdm": [
    "vaccines-A(H1N1)PDM09"
