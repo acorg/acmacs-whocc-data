@@ -5,7 +5,7 @@
 
 #include "acmacs-base/filesystem.hh"
 #include "acmacs-base/acmacsd.hh"
-#include "acmacs-base/settings.hh"
+#include "acmacs-base/settings-v2.hh"
 #include "acmacs-whocc-data/vaccines.hh"
 
 // see ~/AD/share/conf/vaccines.json
@@ -14,7 +14,7 @@
 
 namespace acmacs::whocc::inline v1
 {
-    class VaccineData : public acmacs::settings::Settings
+    class VaccineData : public acmacs::settings::v2::Settings
     {
       public:
         VaccineData()
@@ -23,7 +23,7 @@ namespace acmacs::whocc::inline v1
             using namespace std::string_view_literals;
 
             if (const auto filename = fmt::format("{}/share/conf/vaccines.json", acmacs::acmacsd_root()); fs::exists(filename))
-                acmacs::settings::Settings::load(filename);
+                acmacs::settings::v2::Settings::load(filename);
             else
                 throw error{fmt::format("WARNING: cannot load \"{}\": file not found\n", filename)};
 
@@ -41,7 +41,7 @@ namespace acmacs::whocc::inline v1
             if (name == "vaccine"sv)
                 data_[current_virus_type_].emplace_back(getenv_or("name"sv, ""sv), Vaccine::type_from_string(getenv_or("vaccine_type"sv, ""sv)));
             else
-                return acmacs::settings::Settings::apply_built_in(name);
+                return acmacs::settings::v2::Settings::apply_built_in(name);
             return true;
         }
 

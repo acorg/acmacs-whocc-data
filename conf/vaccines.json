@@ -72,12 +72,12 @@
  "vaccines-BVICTORIA": [
   {"N": "vaccine", "name": "MALAYSIA/2506/2004",       "vaccine_type": "previous", "vaccine_year": "2006"},
   {"N": "vaccine", "name": "BRISBANE/60/2008",         "vaccine_type": "previous", "vaccine_year": "2009"},
+  {"N": "vaccine", "name": "IRELAND/3154/2016",        "vaccine_type": "previous", "?": "Crick surrogate for BRISBANE/60/2008"},
   {"?N": "vaccine", "name": "MARYLAND/15/2016",       "vaccine_type": "current"},
   {"N": "vaccine", "name": "COLORADO/6/2017",        "vaccine_type": "previous", "vaccine_year": "2018-03-01", "?": "http://www.who.int/influenza/vaccines/virus/recommendations/2018_19_north/en/"},
   {"?N": "vaccine", "name": "PARIS/1762/2009",          "vaccine_type": "current", "?": "not used by Crick anymore, B/Ireland/3154/2016 is used instead (2017-08-21)"},
   {"?N": "vaccine", "name": "IOWA/6/2017",              "vaccine_type": "surrogate", "?": "QMC2 2018-11-14 requested to mark by David Wentworth (CDC, NIH)"},
   {"?N": "vaccine", "name": "SOUTH AUSTRALIA/81/2012",  "vaccine_type": "surrogate"},
-  {"?N": "vaccine", "name": "IRELAND/3154/2016",        "vaccine_type": "surrogate"},
   {"N": "vaccine", "name": "WASHINGTON/2/2019",        "vaccine_type": "current", "vaccine_year": "2019-09"},
   {"?N": "vaccine", "name": "SICHUAN GAOXIN/531/2018",  "vaccine_type": "current", "vaccine_year": "2019-09"}
  ],
