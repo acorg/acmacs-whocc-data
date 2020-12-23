@@ -2,6 +2,7 @@
 #include <functional>
 #include <memory>
 #include <mutex>
+#include <map>
 
 #include "acmacs-base/filesystem.hh"
 #include "acmacs-base/acmacsd.hh"
