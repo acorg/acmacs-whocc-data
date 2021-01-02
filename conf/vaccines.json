@@ -10,7 +10,7 @@
  "init": [
  ],
 
- "vaccines-A(H1N1)PDM09": [
+ "vaccines-A(H1N1)2009pdm": [
   {"N": "vaccine", "name": "CALIFORNIA/7/2009",                                "vaccine_type": "previous"},
   {"N": "vaccine", "name": "MICHIGAN/45/2015",                                 "vaccine_type": "previous"},
   {"N": "vaccine", "name": "BRISBANE/2/2018",                                  "vaccine_type": "previous", "vaccine_year": "2019-02"},
@@ -24,8 +24,8 @@
   {"N": "vaccine", "name": "WISCONSIN/588/2019",            "passage": "cell",        "vaccine_type": "current", "vaccine_year": "2020-09"}
 ],
 
- "vaccines-A(H1N1)2009pdm": [
-   "vaccines-A(H1N1)PDM09"
+ "vaccines-A(H1N1)PDM09": [
+  "vaccines-A(H1N1)2009pdm"
  ],
 
  "vaccines-A(H3N2)": [
@@ -69,7 +69,7 @@
   {"N": "vaccine", "name": "HONG KONG/45/2019",    "passage": "reassortant", "vaccine_type": "current", "vaccine_year": "2020-02", "?clade": "2a1b"}
  ],
 
- "vaccines-BVICTORIA": [
+ "vaccines-B/Vic": [
   {"N": "vaccine", "name": "MALAYSIA/2506/2004",       "vaccine_type": "previous", "vaccine_year": "2006"},
   {"N": "vaccine", "name": "BRISBANE/60/2008",         "vaccine_type": "previous", "vaccine_year": "2009"},
   {"N": "vaccine", "name": "IRELAND/3154/2016",        "vaccine_type": "previous", "?": "Crick surrogate for BRISBANE/60/2008"},
@@ -82,7 +82,7 @@
   {"?N": "vaccine", "name": "SICHUAN GAOXIN/531/2018",  "vaccine_type": "current", "vaccine_year": "2019-09"}
  ],
 
- "vaccines-BYAMAGATA": [
+ "vaccines-B/Yam": [
   {"N": "vaccine", "name": "FLORIDA/4/2006",           "vaccine_type": "previous", "vaccine_year": "2008"},
   {"N": "vaccine", "name": "WISCONSIN/1/2010",         "vaccine_type": "previous", "vaccine_year": "2012"},
   {"N": "vaccine", "name": "MASSACHUSETTS/2/2012",     "vaccine_type": "previous", "vaccine_year": "2013"},
