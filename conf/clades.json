@@ -72,7 +72,7 @@
 
   "? Crick clades, Sarah 2021-01-14",
   {"N": "clade", "name": "3C.2A1B+131K-A",    "display_name": "2a1b+131K-A", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V", "522M"]},
-  {"N": "clade", "name": "3C.2A1B+131K-B",    "display_name": "2a1b+131K-A", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "197R", "311Q", "406V", "484G"]},
+  {"N": "clade", "name": "3C.2A1B+131K-B",    "display_name": "2a1b+131K-B", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "197R", "311Q", "406V", "484G"]},
 
   {"?N": "?", "comment": "2A1 clades before 2020-01-13, 484E was removed from clade definitions on Sarah's request 2020-01-13 17:03 Subject: H3 tree, 2a1b, 3a"},
   {"?N": "clade", "name": "3C.2A1",  "display_name": "2a1",  "aa": ["158N", "159Y", "171K", "406V", "484E"]},
