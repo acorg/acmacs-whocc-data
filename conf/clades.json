@@ -71,7 +71,9 @@
   "? TC1 2021-01-19 summary report",
   {"N": "clade", "name": "3C.2A1B1A", "display_name": "3C.2a1b1a", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",  "135K", "138S", "186D", "190N", "193S", "198P"]},
   {"N": "clade", "name": "3C.2A1B1B", "display_name": "3C.2a1b1b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",  "135K", "137F", "138S", "193S"]},
-  {"N": "clade", "name": "3C.2A1B2A", "display_name": "3C.2a1b2a", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",   "83E",  "94N", "131K"]},
+  {"N": "clade", "name": "3C.2A1B2A", "display_name": "3C.2a1b2a", "aa": [ "92R", "121K", "158N",                 "311Q", "406V",   "83E", "!94Y", "131K"], "?": "Sarah 2021-01-29 10:29: I guess allowing strains with a 94N or S) & removing the requirement for 159Y & 171K so it includes the Bangladesh and Cambodia viruses."},
+  {"?N": "clade", "name": "3C.2A1B2A", "display_name": "3C.2a1b2a", "aa": [ "92R", "121K", "158N", "159Y",         "311Q", "406V",   "83E", "!94Y", "131K"], "?": "Sarah 2021-01-29 15:38: please update the colouring clade definition to match the tree - 94N/S and no requirement on 171."},
+  {"?N": "clade", "name": "3C.2A1B2A", "display_name": "3C.2a1b2a", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",   "83E",  "94N", "131K"]},
   {"N": "clade", "name": "3C.2A1B2B", "display_name": "3C.2a1b2b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",  "131K", "197R", "219F"]},
 
   "? disabled on Sarahs request 2021-01-28 15:09",
