@@ -17,8 +17,10 @@
   {"?N": "clade", "name": "183P-3/6", "aa": ["183P", "120A"]},
   {"?N": "clade", "name": "183P-4",   "aa": ["183P", "141E"]},
   {"?N": "clade", "name": "183P-5",   "aa": ["183P", "260D"]},
-  {"?N": "clade", "name": "183P-5A",  "aa": ["183P", "129D", "260D"]},
-  {"?N": "clade", "name": "183P-5B",  "aa": ["183P", "129N", "260D"]},
+  {"?N": "clade", "name": "183P-5A",  "aa": ["183P", "129D", "260D"], "?": "N129D T185I"},
+  {"?N": "clade", "name": "5A1",      "aa": ["183P", "129D", "260D"], "?": "D187A Q189E"},
+  {"?N": "clade", "name": "5A2",      "aa": ["183P", "129D", "260D"], "?": "K130N N156K L161I V250A"},
+  {"?N": "clade", "name": "183P-5B",  "aa": ["183P", "129N", "260D"], "?": "K130N K160M T216K E235D N260D H296N"},
   {"?N": "clade", "name": "183P-7",   "aa": ["183P", "302T"]},
 
   {"?N": "nextflu 2020-01-17 https://github.com/nextstrain/seasonal-flu/blob/master/config/clades_h1n1pdm_ha.tsv"},
