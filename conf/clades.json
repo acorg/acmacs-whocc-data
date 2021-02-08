@@ -1,120 +1,148 @@
-{"_": "-*- js-indent-level: 1 -*-",
+{"_": "-*- js-indent-level: 4 -*-",
 
  "init": [
-  {"?N": "set"}
+     {"?N": "set"}
  ],
 
  "clades-A(H1N1)PDM09": [
-  {"N": "clade", "name": "6B",    "aa": ["163Q"]},
-  {"N": "clade", "name": "6B1",   "aa": ["162N", "163Q"]},
-  {"N": "clade", "name": "6B1.A", "aa": [ "74R", "163Q", "164T", "295V"]},
-  {"N": "clade", "name": "6B2",   "aa": ["152T", "163Q"]},
+     {"N": "clade", "name": "6B",    "aa": ["163Q"]},
+     {"N": "clade", "name": "6B1",   "aa": ["162N", "163Q"]},
+     {"N": "clade", "name": "6B1.A", "aa": [ "74R", "163Q", "164T", "295V"]},
+     {"N": "clade", "name": "6B2",   "aa": ["152T", "163Q"]},
 
-  {"?N": "6B1.A 183P subclades ------------------------------------------------------------"},
-  {"?N": "clade", "name": "183P",     "aa": ["183P"]},
-  {"?N": "clade", "name": "183P-1",   "aa": ["183P", "120T", "233L", "141A", "260N", "302K"]},
-  {"?N": "clade", "name": "183P-2",   "aa": ["183P", "233I"]},
-  {"?N": "clade", "name": "183P-3/6", "aa": ["183P", "120A"]},
-  {"?N": "clade", "name": "183P-4",   "aa": ["183P", "141E"]},
-  {"?N": "clade", "name": "183P-5",   "aa": ["183P", "260D"]},
-  {"?N": "clade", "name": "183P-5A",  "aa": ["183P", "129D", "260D"], "?": "N129D T185I"},
-  {"?N": "clade", "name": "5A1",      "aa": ["183P", "129D", "260D"], "?": "D187A Q189E"},
-  {"?N": "clade", "name": "5A2",      "aa": ["183P", "129D", "260D"], "?": "K130N N156K L161I V250A"},
-  {"?N": "clade", "name": "183P-5B",  "aa": ["183P", "129N", "260D"], "?": "K130N K160M T216K E235D N260D H296N"},
-  {"?N": "clade", "name": "183P-7",   "aa": ["183P", "302T"]},
+     {"?N": "6B1.A 183P subclades ------------------------------------------------------------"},
+     {"?N": "clade", "name": "183P",     "aa": ["183P"]},
+     {"?N": "clade", "name": "183P-1",   "aa": ["183P", "120T", "233L", "141A", "260N", "302K"]},
+     {"?N": "clade", "name": "183P-2",   "aa": ["183P", "233I"]},
+     {"?N": "clade", "name": "183P-3/6", "aa": ["183P", "120A"]},
+     {"?N": "clade", "name": "183P-4",   "aa": ["183P", "141E"]},
+     {"?N": "clade", "name": "183P-5",   "aa": ["183P", "260D"]},
+     {"?N": "clade", "name": "183P-5A",  "aa": ["183P", "129D", "260D"], "?": "N129D T185I"},
+     {"?N": "clade", "name": "5A1",      "aa": ["183P", "129D", "260D"], "?": "D187A Q189E"},
+     {"?N": "clade", "name": "5A2",      "aa": ["183P", "129D", "260D"], "?": "K130N N156K L161I V250A"},
+     {"?N": "clade", "name": "183P-5B",  "aa": ["183P", "129N", "260D"], "?": "K130N K160M T216K E235D N260D H296N"},
+     {"?N": "clade", "name": "183P-7",   "aa": ["183P", "302T"]},
 
-  {"?N": "nextflu 2020-01-17 https://github.com/nextstrain/seasonal-flu/blob/master/config/clades_h1n1pdm_ha.tsv"},
-  {"?N": "nextflu uses nuc pos based on their references strain A/CALIFORNIA/7/2009, need to subtract 71 from their nuc pos to get our (seq start based) nuc pos"},
-  {"?N": "clade", "name": "nextflu-183P-1", "nuc": ["1632A", "313C", "547C", "939G"]},
-  {"?N": "clade", "name": "nextflu-183P-2", "nuc": ["547C", "633A", "1389A"]},
-  {"?N": "clade", "name": "nextflu-183P-3", "nuc": ["354A", "547C"]},
-  {"?N": "clade", "name": "nextflu-183P-4", "nuc": ["339A", "385G", "422A", "547C", "1134G", "1506G"]},
-  {"?N": "clade", "name": "nextflu-183P-5", "nuc": ["547C", "1293C", "1416C"]},
-  {"?N": "clade", "name": "nextflu-183P-6", "nuc": ["138A", "465G", "547C", "1332T"]},
-  {"?N": "clade", "name": "nextflu-183P-7", "nuc": ["246G", "905C", "1487G"]},
+     {"?N": "nextflu 2020-01-17 https://github.com/nextstrain/seasonal-flu/blob/master/config/clades_h1n1pdm_ha.tsv"},
+     {"?N": "nextflu uses nuc pos based on their references strain A/CALIFORNIA/7/2009, need to subtract 71 from their nuc pos to get our (seq start based) nuc pos"},
+     {"?N": "clade", "name": "nextflu-183P-1", "nuc": ["1632A", "313C", "547C", "939G"]},
+     {"?N": "clade", "name": "nextflu-183P-2", "nuc": ["547C", "633A", "1389A"]},
+     {"?N": "clade", "name": "nextflu-183P-3", "nuc": ["354A", "547C"]},
+     {"?N": "clade", "name": "nextflu-183P-4", "nuc": ["339A", "385G", "422A", "547C", "1134G", "1506G"]},
+     {"?N": "clade", "name": "nextflu-183P-5", "nuc": ["547C", "1293C", "1416C"]},
+     {"?N": "clade", "name": "nextflu-183P-6", "nuc": ["138A", "465G", "547C", "1332T"]},
+     {"?N": "clade", "name": "nextflu-183P-7", "nuc": ["246G", "905C", "1487G"]},
 
-  "? clades 156 2020-08-10",
-  {"N": "clade", "name": "155E",     "aa": ["155E"]},
-  {"N": "clade", "name": "156D",     "aa": ["156D"]},
-  {"N": "clade", "name": "156S",     "aa": ["156S"]},
-  {"N": "clade", "name": "156K",     "aa": ["156K"]},
-  {"N": "clade", "name": "156N",     "aa": ["156N", "155G"]},
+     "? clades 156 2020-08-10",
+     {"N": "clade", "name": "155E",     "aa": ["155E"]},
+     {"N": "clade", "name": "156D",     "aa": ["156D"]},
+     {"N": "clade", "name": "156S",     "aa": ["156S"]},
+     {"N": "clade", "name": "156K",     "aa": ["156K"]},
+     {"N": "clade", "name": "156N",     "aa": ["156N", "155G"]},
 
-  {"?N": "end H1"}
+     {"?N": "end H1"}
  ],
 
  "clades-A(H1N1)": [
-  "clades-A(H1N1)PDM09"
+     "clades-A(H1N1)PDM09"
  ],
 
  "clades-A(H3N2)": [
-  {"N": "clade", "name": "3C.3",    "display_name": "3C.3", "aa": ["158N", "159F"]},
-  {"N": "clade", "name": "3C.3A",   "display_name": "3a",   "aa": ["138S", "159S", "225D"], "?": "R326K causes split in the tree for 2019-0814-tc1, removed on 2019-08-21 326R"},
-  {"N": "clade", "name": "3C.3B",   "display_name": "3b",   "aa": [ "62K",  "83R", "261Q"]},
-  {"N": "clade", "name": "3C.2A",   "display_name": "2a",   "aa": ["158N", "159Y"]},
-  {"N": "clade", "name": "3C.2A1",  "display_name": "2a1",  "aa": ["158N", "159Y", "171K", "406V"]},
-  {"N": "clade", "name": "3C.2A1A", "display_name": "2a1a", "aa": ["121K", "135K", "158N", "159Y", "171K", "406V", "479E"]},
-  {"N": "clade", "name": "3C.2A1B", "display_name": "2a1b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V"]},
-  {"N": "clade", "name": "3C.2A2",  "display_name": "2a2",  "aa": ["131K", "142K", "158N", "159Y", "261Q"]},
-  {"N": "clade", "name": "3C.2A3",  "display_name": "2a3",  "aa": ["121K", "135K", "144K", "150K", "158N", "159Y", "261Q"]},
-  {"N": "clade", "name": "3C.2A4",  "display_name": "2a4",  "aa": [ "31S",  "53N", "142G", "144R", "158N", "159Y", "171K", "192T", "197H"]},
+     {"N": "clade", "name": "3C.3",    "display_name": "3C.3", "aa": ["158N", "159F"]},
+     {"N": "clade", "name": "3C.3A",   "display_name": "3a",   "aa": ["138S", "159S", "225D"], "?": "R326K causes split in the tree for 2019-0814-tc1, removed on 2019-08-21 326R"},
+     {"N": "clade", "name": "3C.3B",   "display_name": "3b",   "aa": [ "62K",  "83R", "261Q"]},
+     {"N": "clade", "name": "3C.2A",   "display_name": "2a",   "aa": ["158N", "159Y"]},
+     {"N": "clade", "name": "3C.2A1",  "display_name": "2a1",  "aa": ["158N", "159Y", "171K", "406V"]},
+     {"N": "clade", "name": "3C.2A1A", "display_name": "2a1a", "aa": ["121K", "135K", "158N", "159Y", "171K", "406V", "479E"]},
+     {"N": "clade", "name": "3C.2A1B", "display_name": "2a1b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V"]},
+     {"N": "clade", "name": "3C.2A2",  "display_name": "2a2",  "aa": ["131K", "142K", "158N", "159Y", "261Q"]},
+     {"N": "clade", "name": "3C.2A3",  "display_name": "2a3",  "aa": ["121K", "135K", "144K", "150K", "158N", "159Y", "261Q"]},
+     {"N": "clade", "name": "3C.2A4",  "display_name": "2a4",  "aa": [ "31S",  "53N", "142G", "144R", "158N", "159Y", "171K", "192T", "197H"]},
 
-  "? CDC clades post VCM report 2020-09-21",
-  {"N": "clade", "name": "3C.2A1B+131K+197R", "display_name": "2a1b +131K +197R", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "197R", "311Q", "406V"]},
+     {"?N": "clade", "name": "3C.2A1B+131K+197R", "display_name": "2a1b +131K +197R", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "197R", "311Q", "406V"]},
+     {"?N": "clade", "name": "3C.2A1B+193S",      "display_name": "2a1b 193S", "aa": [ "92R", "121K", "158N", "159Y", "171K", "193S", "311Q", "406V"]},
 
-  "? CDC clades in TC2 report 2020-09-03",
-  {"N": "clade", "name": "3C.2A1B+193S", "display_name": "2a1b 193S", "aa": [ "92R", "121K", "158N", "159Y", "171K", "193S", "311Q", "406V"]},
+     {"N": "clade", "name": "3C.2A1B+135K",      "display_name": "2a1b +135K", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "311Q", "406V"]},
+     {"N": "clade", "name": "3C.2A1B1A", "display_name": "3C.2a1b1a", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",  "135K", "138S", "186D", "190N", "193S", "198P"]},
+     {"N": "clade", "name": "3C.2A1B1B", "display_name": "3C.2a1b1b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",  "135K", "137F", "138S", "193S"]},
+     {"?N": "clade", "name": "3C.2A1B+135K+186D", "display_name": "2a1b +135K +186D", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "186D", "311Q", "406V"]},
 
-  "? CDC clades in TC1 report 2020-08-11",
-  {"N": "clade", "name": "3C.2A1B+131K",      "display_name": "2a1b +131K", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V"]},
-  {"N": "clade", "name": "3C.2A1B+135K",      "display_name": "2a1b +135K", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "311Q", "406V"]},
-  {"N": "clade", "name": "3C.2A1B+135K+186D", "display_name": "2a1b +135K +186D", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "186D", "311Q", "406V"]},
+     {"N": "clade", "name": "3C.2A1B+131K", "display_name": "2a1b +131K", "aa": [ "92R", "121K", "131K", "158N",                 "311Q", "406V"], "?": "Sarah 2021-02-08 13:57: exclude 159 & 171"},
+     {"N": "clade", "name": "3C.2A1B2A",    "display_name": "3C.2a1b2a",  "aa": [ "92R", "121K", "131K", "158N",                 "311Q", "406V",   "83E", "!94Y"], "?": "Sarah 2021-01-29 10:29: I guess allowing strains with a 94N or S) & removing the requirement for 159Y & 171K so it includes the Bangladesh and Cambodia viruses."},
+     {"N": "clade", "name": "3C.2A1B2B",    "display_name": "3C.2a1b2b",  "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V",  "197R", "219F"]},
+ ],
 
-  "? TC1 2021-01-19 summary report",
-  {"N": "clade", "name": "3C.2A1B1A", "display_name": "3C.2a1b1a", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",  "135K", "138S", "186D", "190N", "193S", "198P"]},
-  {"N": "clade", "name": "3C.2A1B1B", "display_name": "3C.2a1b1b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",  "135K", "137F", "138S", "193S"]},
-  {"N": "clade", "name": "3C.2A1B2A", "display_name": "3C.2a1b2a", "aa": [ "92R", "121K", "158N",                 "311Q", "406V",   "83E", "!94Y", "131K"], "?": "Sarah 2021-01-29 10:29: I guess allowing strains with a 94N or S) & removing the requirement for 159Y & 171K so it includes the Bangladesh and Cambodia viruses."},
-  {"?N": "clade", "name": "3C.2A1B2A", "display_name": "3C.2a1b2a", "aa": [ "92R", "121K", "158N", "159Y",         "311Q", "406V",   "83E", "!94Y", "131K"], "?": "Sarah 2021-01-29 15:38: please update the colouring clade definition to match the tree - 94N/S and no requirement on 171."},
-  {"?N": "clade", "name": "3C.2A1B2A", "display_name": "3C.2a1b2a", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",   "83E",  "94N", "131K"]},
-  {"N": "clade", "name": "3C.2A1B2B", "display_name": "3C.2a1b2b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",  "131K", "197R", "219F"]},
+ "? TC2 2021-02-02 clades-A(H3N2)": [
+     {"? clades-A(H3N2)": [
+         {"N": "clade", "name": "3C.3",    "display_name": "3C.3", "aa": ["158N", "159F"]},
+         {"N": "clade", "name": "3C.3A",   "display_name": "3a",   "aa": ["138S", "159S", "225D"], "?": "R326K causes split in the tree for 2019-0814-tc1, removed on 2019-08-21 326R"},
+         {"N": "clade", "name": "3C.3B",   "display_name": "3b",   "aa": [ "62K",  "83R", "261Q"]},
+         {"N": "clade", "name": "3C.2A",   "display_name": "2a",   "aa": ["158N", "159Y"]},
+         {"N": "clade", "name": "3C.2A1",  "display_name": "2a1",  "aa": ["158N", "159Y", "171K", "406V"]},
+         {"N": "clade", "name": "3C.2A1A", "display_name": "2a1a", "aa": ["121K", "135K", "158N", "159Y", "171K", "406V", "479E"]},
+         {"N": "clade", "name": "3C.2A1B", "display_name": "2a1b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V"]},
+         {"N": "clade", "name": "3C.2A2",  "display_name": "2a2",  "aa": ["131K", "142K", "158N", "159Y", "261Q"]},
+         {"N": "clade", "name": "3C.2A3",  "display_name": "2a3",  "aa": ["121K", "135K", "144K", "150K", "158N", "159Y", "261Q"]},
+         {"N": "clade", "name": "3C.2A4",  "display_name": "2a4",  "aa": [ "31S",  "53N", "142G", "144R", "158N", "159Y", "171K", "192T", "197H"]},
 
-  "? disabled on Sarahs request 2021-01-28 15:09",
-  {"?N": "clade", "name": "3C.2A1B+131K+94N",  "display_name": "2a1b +131K +94N", "aa": [ "92R",  "94N", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V"]},
-  "? Sarah 2021-01-19",
-  {"?N": "clade", "name": "3C.2A1B+135K-A",      "display_name": "2a1b+135K-A", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "198P", "311Q", "406V"]},
-  "? CDC clades in TC1 report 2020-08-11",
-  {"?N": "clade", "name": "3C.2A1B+135K+137F", "display_name": "2a1b +135K +137F", "aa": [ "92R", "121K", "135K", "137F", "158N", "159Y", "171K", "311Q", "406V"]},
-  "? Crick clades, Sarah 2021-01-14",
-  {"?N": "clade", "name": "3C.2A1B+131K-A",    "display_name": "2a1b+131K-A", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V", "522M"]},
-  {"?N": "clade", "name": "3C.2A1B+131K-B",    "display_name": "2a1b+131K-B", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "197R", "311Q", "406V", "484G"]},
+         "? CDC clades post VCM report 2020-09-21",
+         {"N": "clade", "name": "3C.2A1B+131K+197R", "display_name": "2a1b +131K +197R", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "197R", "311Q", "406V"]},
 
-  {"?N": "?", "comment": "2A1 clades before 2020-01-13, 484E was removed from clade definitions on Sarah's request 2020-01-13 17:03 Subject: H3 tree, 2a1b, 3a"},
-  {"?N": "clade", "name": "3C.2A1",  "display_name": "2a1",  "aa": ["158N", "159Y", "171K", "406V", "484E"]},
-  {"?N": "clade", "name": "3C.2A1A", "display_name": "2a1a", "aa": ["121K", "135K", "158N", "159Y", "171K", "406V", "479E", "484E"]},
-  {"?N": "clade", "name": "3C.2A1B", "display_name": "2a1b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V", "484E"], "?inclusion_tolerance": "{clade_section_inclusion_tolerance}", "?exclusion_tolerance": "{clade_section_exclusion_tolerance}"},
+         "? CDC clades in TC2 report 2020-09-03",
+         {"N": "clade", "name": "3C.2A1B+193S", "display_name": "2a1b 193S", "aa": [ "92R", "121K", "158N", "159Y", "171K", "193S", "311Q", "406V"]},
 
-  {"?N": "clade", "name": "3C.2A1B-135K", "display_name": "2A1B-135K", "aa": ["92R", "121K", "135K", "158N", "159Y", "171K", "311Q", "406V", "484E"]},
-  {"?N": "clade", "name": "3C.2A1B-135K-137F-193S", "display_name": "2A1B-135K-137F-193S", "aa": ["92R", "121K", "135K", "137F", "158N", "159Y", "171K", "193S", "311Q", "406V", "484E"]},
-  {"?N": "clade", "name": "3C.2A1B-131K", "display_name": "2A1B-131K", "aa": ["92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V", "484E"]},
+         "? CDC clades in TC1 report 2020-08-11",
+         {"N": "clade", "name": "3C.2A1B+131K",      "display_name": "2a1b +131K", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V"]},
+         {"N": "clade", "name": "3C.2A1B+135K",      "display_name": "2a1b +135K", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "311Q", "406V"]},
+         {"N": "clade", "name": "3C.2A1B+135K+186D", "display_name": "2a1b +135K +186D", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "186D", "311Q", "406V"]},
 
-  {"?N": "clade", "name": "159S", "aa": ["159S"], "?": "explicit Derek's request on 2019-04-18"},
-  {"?N": "clade", "name": "159F", "aa": ["159F"], "?": "explicit Derek's request on 2019-04-18"},
-  {"?N": "clade", "name": "159Y", "aa": ["159Y"], "?": "explicit Derek's request on 2019-04-18"}
+         "? TC1 2021-01-19 summary report",
+         {"N": "clade", "name": "3C.2A1B1A", "display_name": "3C.2a1b1a", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",  "135K", "138S", "186D", "190N", "193S", "198P"]},
+         {"N": "clade", "name": "3C.2A1B1B", "display_name": "3C.2a1b1b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",  "135K", "137F", "138S", "193S"]},
+         {"N": "clade", "name": "3C.2A1B2A", "display_name": "3C.2a1b2a", "aa": [ "92R", "121K", "158N",                 "311Q", "406V",   "83E", "!94Y", "131K"], "?": "Sarah 2021-01-29 10:29: I guess allowing strains with a 94N or S) & removing the requirement for 159Y & 171K so it includes the Bangladesh and Cambodia viruses."},
+         {"?N": "clade", "name": "3C.2A1B2A", "display_name": "3C.2a1b2a", "aa": [ "92R", "121K", "158N", "159Y",         "311Q", "406V",   "83E", "!94Y", "131K"], "?": "Sarah 2021-01-29 15:38: please update the colouring clade definition to match the tree - 94N/S and no requirement on 171."},
+         {"?N": "clade", "name": "3C.2A1B2A", "display_name": "3C.2a1b2a", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",   "83E",  "94N", "131K"]},
+         {"N": "clade", "name": "3C.2A1B2B", "display_name": "3C.2a1b2b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V",  "131K", "197R", "219F"]},
+
+         "? disabled on Sarahs request 2021-01-28 15:09",
+         {"?N": "clade", "name": "3C.2A1B+131K+94N",  "display_name": "2a1b +131K +94N", "aa": [ "92R",  "94N", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V"]},
+         "? Sarah 2021-01-19",
+         {"?N": "clade", "name": "3C.2A1B+135K-A",      "display_name": "2a1b+135K-A", "aa": [ "92R", "121K", "135K", "158N", "159Y", "171K", "198P", "311Q", "406V"]},
+         "? CDC clades in TC1 report 2020-08-11",
+         {"?N": "clade", "name": "3C.2A1B+135K+137F", "display_name": "2a1b +135K +137F", "aa": [ "92R", "121K", "135K", "137F", "158N", "159Y", "171K", "311Q", "406V"]},
+         "? Crick clades, Sarah 2021-01-14",
+         {"?N": "clade", "name": "3C.2A1B+131K-A",    "display_name": "2a1b+131K-A", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V", "522M"]},
+         {"?N": "clade", "name": "3C.2A1B+131K-B",    "display_name": "2a1b+131K-B", "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "197R", "311Q", "406V", "484G"]},
+
+         {"?N": "?", "comment": "2A1 clades before 2020-01-13, 484E was removed from clade definitions on Sarah's request 2020-01-13 17:03 Subject: H3 tree, 2a1b, 3a"},
+         {"?N": "clade", "name": "3C.2A1",  "display_name": "2a1",  "aa": ["158N", "159Y", "171K", "406V", "484E"]},
+         {"?N": "clade", "name": "3C.2A1A", "display_name": "2a1a", "aa": ["121K", "135K", "158N", "159Y", "171K", "406V", "479E", "484E"]},
+         {"?N": "clade", "name": "3C.2A1B", "display_name": "2a1b", "aa": [ "92R", "121K", "158N", "159Y", "171K", "311Q", "406V", "484E"], "?inclusion_tolerance": "{clade_section_inclusion_tolerance}", "?exclusion_tolerance": "{clade_section_exclusion_tolerance}"},
+
+         {"?N": "clade", "name": "3C.2A1B-135K", "display_name": "2A1B-135K", "aa": ["92R", "121K", "135K", "158N", "159Y", "171K", "311Q", "406V", "484E"]},
+         {"?N": "clade", "name": "3C.2A1B-135K-137F-193S", "display_name": "2A1B-135K-137F-193S", "aa": ["92R", "121K", "135K", "137F", "158N", "159Y", "171K", "193S", "311Q", "406V", "484E"]},
+         {"?N": "clade", "name": "3C.2A1B-131K", "display_name": "2A1B-131K", "aa": ["92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V", "484E"]},
+
+         {"?N": "clade", "name": "159S", "aa": ["159S"], "?": "explicit Derek's request on 2019-04-18"},
+         {"?N": "clade", "name": "159F", "aa": ["159F"], "?": "explicit Derek's request on 2019-04-18"},
+         {"?N": "clade", "name": "159Y", "aa": ["159Y"], "?": "explicit Derek's request on 2019-04-18"}
+     ]
+     }
  ],
 
  "clades-BVICTORIA": [
-  {"N": "clade", "name": "V1A", "aa": ["!58P", "75K", "172P"]},
-  {"N": "clade", "name": "V1B", "aa": ["58P"]},
+     {"N": "clade", "name": "V1A", "aa": ["!58P", "75K", "172P"]},
+     {"N": "clade", "name": "V1B", "aa": ["58P"]},
 
-  {"N": "clade", "name": "2DEL2017",           "display_name": "2del", "aa": ["162-", "163-", "!164-"]},
-  {"N": "clade", "name": "3DEL2017",           "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-"]},
-  {"N": "clade", "name": "3DEL2017-150K-197D", "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-", "150K", "197D"]},
-  {"N": "clade", "name": "6DEL2019",           "display_name": "6del", "aa": ["162-", "163-",  "164-",  "165-", "166-", "167-"]}
+     {"N": "clade", "name": "2DEL2017",           "display_name": "2del", "aa": ["162-", "163-", "!164-"]},
+     {"N": "clade", "name": "3DEL2017",           "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-"]},
+     {"N": "clade", "name": "3DEL2017-150K-197D", "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-", "150K", "197D"]},
+     {"N": "clade", "name": "6DEL2019",           "display_name": "6del", "aa": ["162-", "163-",  "164-",  "165-", "166-", "167-"]}
  ],
 
  "clades-BYAMAGATA": [
-  {"N": "clade", "name": "Y2", "aa": ["166N"]},
-  {"N": "clade", "name": "Y3", "aa": ["166Y"]},
-  {"?N": "clade", "name": "TAIWAN2010", "aa": ["169-", "170-"], "?": "12 sequences from TAIWAN 2010 have deletions 169:2, perhaps they are not YAMAGATA"}
+     {"N": "clade", "name": "Y2", "aa": ["166N"]},
+     {"N": "clade", "name": "Y3", "aa": ["166Y"]},
+     {"?N": "clade", "name": "TAIWAN2010", "aa": ["169-", "170-"], "?": "12 sequences from TAIWAN 2010 have deletions 169:2, perhaps they are not YAMAGATA"}
  ]
 }
