@@ -106,9 +106,10 @@
   {"N": "clade", "name": "V1A", "aa": ["!58P", "75K", "172P"]},
   {"N": "clade", "name": "V1B", "aa": ["58P"]},
 
-  {"N": "clade", "name": "2DEL2017", "display_name": "2del", "aa": ["162-", "163-", "!164-"]},
-  {"N": "clade", "name": "3DEL2017", "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-"]},
-  {"N": "clade", "name": "6DEL2019", "display_name": "6del", "aa": ["162-", "163-",  "164-",  "165-", "166-", "167-"]}
+  {"N": "clade", "name": "2DEL2017",           "display_name": "2del", "aa": ["162-", "163-", "!164-"]},
+  {"N": "clade", "name": "3DEL2017",           "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-"]},
+  {"N": "clade", "name": "3DEL2017-150K-197D", "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-", "150K", "197D"]},
+  {"N": "clade", "name": "6DEL2019",           "display_name": "6del", "aa": ["162-", "163-",  "164-",  "165-", "166-", "167-"]}
  ],
 
  "clades-BYAMAGATA": [
