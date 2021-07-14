@@ -70,7 +70,9 @@
      {"N": "clade", "name": "3C.2A1B+131K", "display_name": "2a1b +131K", "aa": [ "92R", "121K", "131K", "158N",                 "311Q", "406V"], "?": "Sarah 2021-02-08 13:57: exclude 159 & 171"},
      {"N": "clade", "name": "3C.2A1B2A",    "display_name": "3C.2a1b2a",  "aa": [ "92R", "121K", "131K", "158N",                 "311Q", "406V",   "83E", "!94Y"], "?": "Sarah 2021-01-29 10:29: I guess allowing strains with a 94N or S) & removing the requirement for 159Y & 171K so it includes the Bangladesh and Cambodia viruses."},
      {"N": "clade", "name": "3C.2A1B2B",    "display_name": "3C.2a1b2b",  "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V",  "197R", "219F"]},
- ],
+
+      {"?N": "end H3"}
+],
 
  "? TC2 2021-02-02 clades-A(H3N2)": [
      {"? clades-A(H3N2)": [
@@ -137,8 +139,10 @@
      {"N": "clade", "name": "2DEL2017",           "display_name": "2del", "aa": ["162-", "163-", "!164-"]},
      {"N": "clade", "name": "3DEL2017",           "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-"]},
      {"N": "clade", "name": "3DEL2017-150K-197D", "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-", "150K", "197D"]},
-     {"N": "clade", "name": "6DEL2019",           "display_name": "6del", "aa": ["162-", "163-",  "164-",  "165-", "166-", "167-"]}
- ],
+     {"N": "clade", "name": "6DEL2019",           "display_name": "6del", "aa": ["162-", "163-",  "164-",  "165-", "166-", "167-"]},
+
+      {"?N": "end clades-BVICTORIA"}
+],
 
  "clades-BVICTORIA-3del": [
      {"N": "antigens", "select": {"clade": "3DEL2017", "amino-acid": ["126K"],         "date": "$date-recent", "report": true}, "fill": "#8DA0CB{clade-pale}", "outline": "black{clade-pale}", "legend": {"label": "V1A.3 126K ({count})", "show_if_none_selected": true}, "order": "raise"},
@@ -150,6 +154,8 @@
      {"N": "antigens", "select": {"clade": "3DEL2017", "amino-acid": ["133R", "128K"], "date": "$date-recent", "report": true}, "fill": "#FC8D62{clade-pale}", "outline": "black{clade-pale}", "legend": {"label": "V1A.3 133R 128K ({count})", "show_if_none_selected": true}, "order": "raise"},
      {"N": "antigens", "select": {"clade": "3DEL2017", "amino-acid": ["133R", "129N"], "date": "$date-recent", "report": true}, "fill": "#E78AC3{clade-pale}", "outline": "black{clade-pale}", "legend": {"label": "V1A.3 133R 129N ({count})", "show_if_none_selected": true}, "order": "raise"},
      {"N": "antigens", "select": {"clade": "3DEL2017", "amino-acid": ["133R", "136K"], "date": "$date-recent", "report": true}, "fill": "#E5C494{clade-pale}", "outline": "black{clade-pale}", "legend": {"label": "V1A.3 133R 136K ({count})", "show_if_none_selected": true}, "order": "raise"},
+
+     {"?N": "end clades-BVICTORIA-3del"}
  ],
 
  "clades-BYAMAGATA": [
