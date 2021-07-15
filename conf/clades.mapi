@@ -82,17 +82,17 @@
     ],
 
     "clades-BVICTORIA-N-gly-197": [
-        {"N": "antigens", "select": {"amino_acid": ["197N", "199T"], "date": "$date-recent"}, "outline": "black", "?outline": "#0000C0", "outline_width": 3, "legend": {"label": "Gly (197N 199T)", "?label": "Potential N-gly (197N 199T)", "count": true}, "order": "raise", "report": false, "report_names_threshold": 100},
-        {"N": "antigens", "select": {"amino_acid": ["197N", "199S"], "date": "$date-recent"}, "outline": "black", "?outline": "#00C0C0", "outline_width": 3, "legend": {"label": "Gly (197N 199S)", "?label": "Potential N-gly (197N 199S)", "count": true}, "order": "raise", "report": false, "report_names_threshold": 100},
-
-        {"N": "antigens", "select": {"amino_acid": ["197N", "!199T"], "date": "$date-recent"}, "outline": "#C00000", "outline_width": 3, "legend": {"label": "Loss gly (199notT)", "?label": "Loss of gly (197N 199notT)", "count": true}, "order": "raise", "report": false, "report_names_threshold": 100},
-        {"N": "antigens", "select": {"amino_acid": ["!197N"], "date": "$date-recent"},         "outline": "#C000C0", "outline_width": 3, "legend": {"label": "Loss gly (197notN)", "?label": "Loss of gly (197notN)", "count": true}, "order": "raise", "report": false, "report_names_threshold": 100},
-
         {"N": "antigens", "select": {"clade-all": ["V1A", "!2DEL2017", "!3DEL2017"],       "date": "$date-recent", "report": true}, "fill": "#6495ED{clade-pale}", "outline": "black{clade-pale}", "legend": {"label": "V1.A ({count})",          "show_if_none_selected": true}, "order": "raise"},
         {"N": "antigens", "select": {"clade": "2DEL2017",                                  "date": "$date-recent", "report": true}, "fill": "#DE8244{clade-pale}", "outline": "black{clade-pale}", "legend": {"label": "2-Del mutants ({count})", "show_if_none_selected": true}, "order": "raise"},
         {"N": "antigens", "select": {"clade": "3DEL2017",                                  "date": "$date-recent", "report": true}, "fill": "#BF3EFF{clade-pale}", "outline": "black{clade-pale}", "legend": {"label": "3-Del mutants ({count})", "show_if_none_selected": true}, "order": "raise"},
         {"?N": "antigens", "select": {"clade": "3DEL2017-150K-197D",                        "date": "$date-recent", "report": true}, "fill": "#ED93BD{clade-pale}", "outline": "black{clade-pale}", "legend": {"label": "3-Del 150K 197D ({count})", "show_if_none_selected": true}, "order": "raise"},
         {"N": "antigens", "select": {"clade": "3DEL2017", "amino-acid": ["150K", "!197N"], "date": "$date-recent", "report": true}, "fill": "#ED93BD{clade-pale}", "outline": "black{clade-pale}", "legend": {"label": "3-Del 150K 197D/E ({count})", "show_if_none_selected": true}, "order": "raise"},
+
+        {"N": "antigens", "select": {"amino_acid": ["197N", "199T"], "date": "$date-recent"}, "outline": "black", "?outline": "#0000C0", "outline_width": 3, "legend": {"label": "Gly (197N 199T) ({count})", "?label": "Potential N-gly (197N 199T)", "count": true}, "order": "raise", "report": false, "report_names_threshold": 100},
+        {"N": "antigens", "select": {"amino_acid": ["197N", "199S"], "date": "$date-recent"}, "outline": "black", "?outline": "#00C0C0", "outline_width": 3, "legend": {"label": "Gly (197N 199S) ({count})", "?label": "Potential N-gly (197N 199S)", "count": true}, "order": "raise", "report": false, "report_names_threshold": 100},
+
+        {"N": "antigens", "select": {"amino_acid": ["197N", "!199T"], "date": "$date-recent"}, "outline": "#C00000", "outline_width": 3, "legend": {"label": "Loss gly (199notT) ({count})", "?label": "Loss of gly (197N 199notT)", "count": true}, "order": "raise", "report": false, "report_names_threshold": 100},
+        {"N": "antigens", "select": {"amino_acid": ["!197N"], "date": "$date-recent"},         "outline": "#C000C0", "outline_width": 3, "legend": {"label": "Loss gly (197notN) ({count})", "?label": "Loss of gly (197notN)", "count": true}, "order": "raise", "report": false, "report_names_threshold": 100},
 
         {"?N": "antigens", "select": {"clade": "V1",            "amino_acid": ["197N", "!199T"], "date": "$date-recent"}, "fill": "#C00000FF"},
         {"?N": "antigens", "select": {"clade": "V1",            "amino_acid": ["!197N"]        , "date": "$date-recent"}, "fill": "#C00000FF"},
@@ -111,7 +111,7 @@
         {"?N": "antigens", "select": {"clade": "3DEL2017", "amino_acid": ["197X"]         , "date": "$date-recent"}, "fill": "#C0BF3EFF"},
         {"?N": "antigens", "select": {"clade": "3DEL2017", "amino_acid": ["199X"]         , "date": "$date-recent"}, "fill": "#C0BF3EFF"},
 
-        {"N": "antigens", "select": {"amino_acid": ["197X", "199T"], "date": "$date-recent", "report": true}, "outline": "#00C000", "outline_width": 3, "legend": {"label": "? gly (197 or 199X)", "?label": "Unclear N-gly (197[XN] 199[XT])", "count": false, "show_if_none_selected": true}, "order": "lower"},
+        {"N": "antigens", "select": {"amino_acid": ["197X", "199T"], "date": "$date-recent", "report": true}, "outline": "#00C000", "outline_width": 3, "legend": {"label": "? gly (197X or 199X) ({count})", "?label": "Unclear N-gly (197[XN] 199[XT])", "count": false, "show_if_none_selected": true}, "order": "lower"},
         {"N": "antigens", "select": {"amino_acid": ["197N", "199X"], "date": "$date-recent", "report": true}, "outline": "#00C000", "outline_width": 3, "order": "lower", "report_names_threshold": 100},
         {"N": "antigens", "select": {"amino_acid": ["197X", "199X"], "date": "$date-recent", "report": true}, "outline": "#00C000", "outline_width": 3, "order": "lower", "report_names_threshold": 100},
 
