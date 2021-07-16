@@ -4,7 +4,7 @@
      {"?N": "set"}
  ],
 
- "clades-A(H1N1)PDM09": [
+ "clades-A(H1N1)2009pdm": [
      {"N": "clade", "name": "6B",    "aa": ["163Q"]},
      {"N": "clade", "name": "6B1",   "aa": ["162N", "163Q"]},
      {"N": "clade", "name": "6B1.A", "aa": [ "74R", "163Q", "164T", "295V"]},
@@ -44,7 +44,7 @@
  ],
 
  "clades-A(H1N1)": [
-     "clades-A(H1N1)PDM09"
+     "H1 seasonal clades not defined"
  ],
 
  "clades-A(H3N2)": [
@@ -132,7 +132,7 @@
      }
  ],
 
- "clades-BVICTORIA": [
+ "clades-B/Vic": [
      {"N": "clade", "name": "V1A", "aa": ["!58P", "75K", "172P"]},
      {"N": "clade", "name": "V1B", "aa": ["58P"]},
 
@@ -141,10 +141,10 @@
      {"N": "clade", "name": "3DEL2017-150K-197D", "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-", "150K", "197D"]},
      {"N": "clade", "name": "6DEL2019",           "display_name": "6del", "aa": ["162-", "163-",  "164-",  "165-", "166-", "167-"]},
 
-      {"?N": "end clades-BVICTORIA"}
+      {"?N": "end clades-B/Vic"}
 ],
 
- "clades-BYAMAGATA": [
+ "clades-B/Yam": [
      {"N": "clade", "name": "Y2", "aa": ["166N"]},
      {"N": "clade", "name": "Y3", "aa": ["166Y"]},
      {"?N": "clade", "name": "TAIWAN2010", "aa": ["169-", "170-"], "?": "12 sequences from TAIWAN 2010 have deletions 169:2, perhaps they are not YAMAGATA"}
