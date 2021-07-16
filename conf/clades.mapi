@@ -1,4 +1,4 @@
-{
+{   "_": "-*- js-indent-level: 4 -*-",
     "?source": "AD/sources/acmacs-whocc-data/conf/clades.mapi",
 
     "init": [
@@ -43,7 +43,9 @@
 
         {"N": "antigens",  "fill": "pink{clade-pale}",           "select": {"clade": "3C.2A1B", "amino-acid": ["193S"],   "date": "$date-recent", "report": false}, "legend": {"label": "2a1b+193S",                "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise", "report": true},
         {"N": "antigens",  "fill": "#ff99ff{clade-pale}",        "select": {"clade": "3C.2A1B2A", "amino-acid": ["193S"], "date": "$date-recent", "report": false}, "legend": {"label": "2a1b2a+193S ({count})", "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise", "report": true},
-        {"N": "antigens",  "fill": "#6495ED{clade-pale}",        "select": {"clade": "3C.2A1B2A", "amino-acid": ["159N"], "date": "$date-recent", "report": false},  "legend": {"label": "2a1b2a+159N ({count})", "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#6495ED{clade-pale}",        "select": {"clade": "3C.2A1B2A", "amino-acid": ["159N", "156H"], "date": "$date-recent", "report": false},  "legend": {"label": "2a1b2a+159N+156H ({count})", "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#a9c4f5{clade-pale}",        "select": {"clade": "3C.2A1B2A", "amino-acid": ["159N", "156S"], "date": "$date-recent", "report": false},  "legend": {"label": "2a1b2a+159N+156S ({count})", "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#1347a4{clade-pale}",        "select": {"clade": "3C.2A1B2A", "amino-acid": ["159N", "156Q"], "date": "$date-recent", "report": false},  "legend": {"label": "2a1b2a+159N+156Q ({count})", "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise", "report": true},
         {"N": "antigens",  "fill": "#eaaee8{clade-pale}",        "select": {"clade": "3C.2A1B1A",                         "date": "$date-recent", "report": false}, "legend": {"label": "2a1b1a ({count})",      "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise", "report": true},
         {"N": "antigens",  "fill": "#34B2C9{clade-pale}",        "select": {"clade": "3C.2A1B1A", "amino-acid": ["192F"], "date": "$date-recent", "report": true},                  "legend": {"label": "2a1b1a+192F ({count})",      "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise", "report": true},
         {"N": "antigens",  "fill": "#ff99cc{clade-pale}",        "select": {"clade": "3C.2A1B1B",                         "date": "$date-recent", "report": false}, "legend": {"label": "2a1b1b ({count})",      "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise", "report": true},
