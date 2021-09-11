@@ -23,7 +23,7 @@
         {"N": "antigens",  "select": {"amino-acid": ["156K"],         "date": "$date-recent", "layer": "$recent-layers", "test": "$test-only"}, "fill": "#e72f27{clade-pale}", "legend": {"label": "156K ({count})",      "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise"},
         {"?N": "antigens", "select": {"amino-acid": ["156X"],         "date": "$date-recent", "layer": "$recent-layers", "test": "$test-only"}, "fill": "#f1b066{clade-pale}", "legend": {"label": "156X ({count})",      "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise"},
         {"N": "antigens",  "select": {"amino-acid": ["156N" ,"155G"], "date": "$date-recent", "layer": "$recent-layers", "test": "$test-only"}, "fill": "#03569b{clade-pale}", "legend": {"label": "156N 155G ({count})", "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise"},
-        {"N": "antigens",  "select": {"amino-acid": ["155R"],         "date": "$date-recent", "layer": "$recent-layers", "test": "$test-only"}, "fill": "#E7298A{clade-pale}", "legend": {"label": "155R ({count})",      "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise"},
+        {"N": "antigens",  "select": {"amino-acid": ["155R"],         "date": "$date-recent", "layer": "$recent-layers", "test": "$test-only"}, "fill": "#ffa0a0{clade-pale}", "legend": {"label": "155R ({count})",      "show_if_none_selected": true}, "outline": "black{clade-pale}", "order": "raise"},
 
         {"?N": "end"}
     ],
