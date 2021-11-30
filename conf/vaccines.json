@@ -68,6 +68,8 @@
   {"N": "vaccine", "name": "HONG KONG/45/2019",    "passage": "cell",        "vaccine_type": "previous", "vaccine_year": "2020-02", "?clade": "2a1b"},
   {"N": "vaccine", "name": "HONG KONG/45/2019",    "passage": "reassortant", "vaccine_type": "previous", "vaccine_year": "2020-02", "?clade": "2a1b"},
   {"N": "vaccine", "name": "CAMBODIA/E0826360/2020",    "vaccine_type": "current", "vaccine_year": "2021-02", "?clade": "3C.2A1B2A"},
+  {"N": "vaccine", "name": "DARWIN/9/2021",  "passage": "egg",    "vaccine_type": "current", "vaccine_year": "2021-09", "?clade": "3C.2A1B2A", "?url": "https://cdn.who.int/media/docs/default-source/influenza/who-influenza-recommendations/vcm-southern-hemisphere-recommendation-2022/202109_recommendation.pdf"},
+  {"N": "vaccine", "name": "DARWIN/6/2021",  "passage": "cell",    "vaccine_type": "current", "vaccine_year": "2021-09", "?clade": "3C.2A1B2A"}
  ],
 
  "vaccines-B/Vic": [
@@ -79,8 +81,9 @@
   {"?N": "vaccine", "name": "PARIS/1762/2009",          "vaccine_type": "current", "?": "not used by Crick anymore, B/Ireland/3154/2016 is used instead (2017-08-21)"},
   {"?N": "vaccine", "name": "IOWA/6/2017",              "vaccine_type": "surrogate", "?": "QMC2 2018-11-14 requested to mark by David Wentworth (CDC, NIH)"},
   {"?N": "vaccine", "name": "SOUTH AUSTRALIA/81/2012",  "vaccine_type": "surrogate"},
-  {"N": "vaccine", "name": "WASHINGTON/2/2019",        "vaccine_type": "current", "vaccine_year": "2019-09"},
-  {"?N": "vaccine", "name": "SICHUAN GAOXIN/531/2018",  "vaccine_type": "current", "vaccine_year": "2019-09"}
+  {"N": "vaccine", "name": "WASHINGTON/2/2019",        "vaccine_type": "previous", "vaccine_year": "2019-09"},
+  {"?N": "vaccine", "name": "SICHUAN GAOXIN/531/2018",  "vaccine_type": "current", "vaccine_year": "2019-09"},
+  {"N": "vaccine", "name": "AUSTRIA/1359417/2021",        "vaccine_type": "current", "vaccine_year": "2021-09", "?clade": "3DEL2017-150K-197D", "?url": "https://cdn.who.int/media/docs/default-source/influenza/who-influenza-recommendations/vcm-southern-hemisphere-recommendation-2022/202109_recommendation.pdf"}
  ],
 
  "vaccines-B/Yam": [
