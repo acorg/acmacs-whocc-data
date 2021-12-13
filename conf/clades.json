@@ -69,6 +69,8 @@
 
      {"N": "clade", "name": "3C.2A1B+131K", "display_name": "2a1b +131K", "aa": [ "92R", "121K", "131K", "158N",                 "311Q", "406V"], "?": "Sarah 2021-02-08 13:57: exclude 159 & 171"},
      {"N": "clade", "name": "3C.2A1B2A",    "display_name": "3C.2a1b2a",  "aa": [ "92R", "121K", "131K", "158N",                 "311Q", "406V",   "83E", "!94Y"], "?": "Sarah 2021-01-29 10:29: I guess allowing strains with a 94N or S) & removing the requirement for 159Y & 171K so it includes the Bangladesh and Cambodia viruses."},
+     {"N": "clade", "name": "3C.2A1B2A+186S",    "display_name": "3C.2a1b.2a1",  "aa": [ "92R", "121K", "131K", "158N", "186S", "311Q", "406V",   "83E", "!94Y"]},
+     {"N": "clade", "name": "3C.2A1B2A+159N",    "display_name": "3C.2a1b.2a2",  "aa": [ "92R", "121K", "131K", "158N", "159N", "311Q", "406V",   "83E", "!94Y"]},
      {"N": "clade", "name": "3C.2A1B2B",    "display_name": "3C.2a1b2b",  "aa": [ "92R", "121K", "131K", "158N", "159Y", "171K", "311Q", "406V",  "197R", "219F"]},
 
       {"?N": "end H3"}
@@ -136,10 +138,12 @@
      {"N": "clade", "name": "V1A", "aa": ["!58P", "75K", "172P"]},
      {"N": "clade", "name": "V1B", "aa": ["58P"]},
 
-     {"N": "clade", "name": "2DEL2017",           "display_name": "2del", "aa": ["162-", "163-", "!164-"]},
-     {"N": "clade", "name": "3DEL2017",           "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-"]},
-     {"N": "clade", "name": "3DEL2017-150K-197D", "display_name": "3del", "aa": ["162-", "163-",  "164-", "!165-", "150K", "197D"]},
-     {"N": "clade", "name": "6DEL2019",           "display_name": "6del", "aa": ["162-", "163-",  "164-",  "165-", "166-", "167-"]},
+     {"N": "clade", "name": "V1A.1",    "display_name": "V1A.1",   "aa": ["162-", "163-", "!164-"]},
+     {"N": "clade", "name": "V1A.3",    "display_name": "V1A.3",   "aa": ["162-", "163-",  "164-", "!165-"]},
+     {"N": "clade", "name": "V1A.3a",   "display_name": "V1A.3a",  "aa": ["162-", "163-",  "164-", "!165-", "150K", "197D"], "?": "CDC-B report 202109"},
+     {"N": "clade", "name": "V1A.3a1",  "display_name": "V1A.3a1", "aa": ["162-", "163-",  "164-", "!165-", "150K", "197D", "220M", "241Q"], "?": "CDC-B report 202109"},
+     {"N": "clade", "name": "V1A.3a2",  "display_name": "V1A.3a2", "aa": ["162-", "163-",  "164-", "!165-", "150K", "197D", "127T", "144L", "203R"], "?": "CDC-B report 202109"},
+     {"N": "clade", "name": "6DEL2019", "display_name": "6del",    "aa": ["162-", "163-",  "164-",  "165-", "166-", "167-"]},
 
       {"?N": "end clades-B/Vic"}
 ],
