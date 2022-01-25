@@ -82,6 +82,17 @@
         {"?N": "last"}
     ],
 
+    "? clades-A(H3N2)-3C.3b": [
+        {"?N": "h3-hi-guinea-pig-crick/b-20220123-2014-2017-3b-tables-1280"},
+        {"N": "antigens",  "fill": "#9aceeb",   "select": {"clade": "3C"}, "legend": {"label": "3C ({count})", "show_if_none_selected": true},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#FF0000",   "select": {"clade": "3C.2a"}, "legend": {"label": "2a ({count})", "show_if_none_selected": true},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#0000FF",   "select": {"clade": "3C.3"}, "legend": {"label": "3C.3 ({count})", "show_if_none_selected": true},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#00FF00",   "select": {"clade": "3C.3a"}, "legend": {"label": "3a ({count})", "show_if_none_selected": true},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#ffd700",   "select": {"clade": "3C.3b"}, "legend": {"label": "3b ({count})", "show_if_none_selected": true},               "outline": "black", "order": "raise", "report": true},
+        {"?N": "last"}
+
+    ],
+
     "? before": "----------------------------------------------------------------------",
 
     "? seqdb3 clades-A(H3N2) before 2022-01-20": [
