@@ -93,6 +93,25 @@
 
     ],
 
+    "? maps of tables before 2018": "",
+    "clades-A(H3N2)-2010": [
+        {"N": "antigens",  "fill": "#6495ED",   "select": {"clade": "HK68"}, "legend": {"label": "HK68 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#00A000",   "select": {"clade": "EN72"}, "legend": {"label": "EN72 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#A00000",   "select": {"clade": "VI75"}, "legend": {"label": "VI75 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#FFC0CB",   "select": {"clade": "TX77"}, "legend": {"label": "TX77 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#C0CBFF",   "select": {"clade": "BK79"}, "legend": {"label": "BK79 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#C0FFCB",   "select": {"clade": "SI87"}, "legend": {"label": "SI87 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#FF00FF",   "select": {"clade": "BE89"}, "legend": {"label": "BE89 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#00FFFF",   "select": {"clade": "BE92"}, "legend": {"label": "BE92 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#00A045",   "select": {"clade": "WU95"}, "legend": {"label": "WU95 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#FFA500",   "select": {"clade": "SY97"}, "legend": {"label": "SY97 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#00A5FF",   "select": {"clade": "FU02"}, "legend": {"label": "FU02 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#FF0000",   "select": {"clade": "CA04"}, "legend": {"label": "CA04 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#00FF00",   "select": {"clade": "WI05"}, "legend": {"label": "WI05 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#0000FF",   "select": {"clade": "PE09"}, "legend": {"label": "PE09 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"?N": "last"}
+    ],
+
     "? before": "----------------------------------------------------------------------",
 
     "? seqdb3 clades-A(H3N2) before 2022-01-20": [
