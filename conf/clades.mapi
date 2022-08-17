@@ -95,6 +95,7 @@
 
     "? maps of tables before 2018": "",
     "clades-A(H3N2)-2010": [
+        {"N": "antigens",  "fill": "#FFFFA0",   "select": {"sequenced": true}, "legend": {"label": "seq ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
         {"N": "antigens",  "fill": "#6495ED",   "select": {"clade": "HK68"}, "legend": {"label": "HK68 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
         {"N": "antigens",  "fill": "#00A000",   "select": {"clade": "EN72"}, "legend": {"label": "EN72 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
         {"N": "antigens",  "fill": "#A00000",   "select": {"clade": "VI75"}, "legend": {"label": "VI75 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
@@ -108,7 +109,7 @@
         {"N": "antigens",  "fill": "#00A5FF",   "select": {"clade": "FU02"}, "legend": {"label": "FU02 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
         {"N": "antigens",  "fill": "#FF0000",   "select": {"clade": "CA04"}, "legend": {"label": "CA04 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
         {"N": "antigens",  "fill": "#00FF00",   "select": {"clade": "WI05"}, "legend": {"label": "WI05 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
-        {"N": "antigens",  "fill": "#0000FF",   "select": {"clade": "PE09"}, "legend": {"label": "PE09 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
+        {"N": "antigens",  "fill": "#A020FF",   "select": {"clade": "PE09"}, "legend": {"label": "PE09 ({count})", "show_if_none_selected": false},               "outline": "black", "order": "raise", "report": true},
         {"?N": "last"}
     ],
 
