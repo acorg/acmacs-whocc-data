@@ -21,7 +21,8 @@
   {"N": "vaccine", "name": "HAWAII/70/2019",                "passage": "reassortant", "vaccine_type": "current", "vaccine_year": "2020-02"},
 
   {"N": "vaccine", "name": "VICTORIA/2570/2019",            "passage": "egg",         "vaccine_type": "current", "vaccine_year": "2020-09"},
-  {"N": "vaccine", "name": "WISCONSIN/588/2019",            "passage": "cell",        "vaccine_type": "current", "vaccine_year": "2020-09"}
+  {"N": "vaccine", "name": "WISCONSIN/588/2019",            "passage": "cell",        "vaccine_type": "current", "vaccine_year": "2020-09"},
+  {"N": "vaccine", "name": "SYDNEY/5/2021",                                           "vaccine_type": "current", "vaccine_year": "2022-09"}
 ],
 
  "vaccines-A(H1N1)PDM09": [
@@ -70,21 +71,24 @@
   {"N": "vaccine", "name": "CAMBODIA/E0826360/2020",                         "vaccine_type": "current",   "vaccine_year": "2021-02", "?clade": "3C.2A1B2A"},
   {"N": "vaccine", "name": "DARWIN/9/2021",        "passage": "egg",         "vaccine_type": "current",   "vaccine_year": "2021-09", "?clade": "3C.2A1B2A", "?url": "https://cdn.who.int/media/docs/default-source/influenza/who-influenza-recommendations/vcm-southern-hemisphere-recommendation-2022/202109_recommendation.pdf"},
   {"N": "vaccine", "name": "DARWIN/6/2021",        "passage": "cell",        "vaccine_type": "current",   "vaccine_year": "2021-09", "?clade": "3C.2A1B2A"},
-  {"N": "vaccine", "name": "STOCKHOLM/5/2021",                               "vaccine_type": "surrogate", "vaccine_year": "2022-02", "?clade": "3C.2a1b.2a.2"}
+  {"N": "vaccine", "name": "STOCKHOLM/5/2021",                               "vaccine_type": "surrogate", "vaccine_year": "2022-02", "?clade": "3C.2a1b.2a.2"},
+  {"N": "vaccine", "name": "DARWIN/11/2021",        "passage": "cell",        "vaccine_type": "current",   "vaccine_year": "2022-09", "?clade": ""}
  ],
 
  "vaccines-B/Vic": [
-  {"N": "vaccine", "name": "MALAYSIA/2506/2004",       "vaccine_type": "previous", "vaccine_year": "2006"},
-  {"N": "vaccine", "name": "BRISBANE/60/2008",         "vaccine_type": "previous", "vaccine_year": "2009"},
-  {"N": "vaccine", "name": "IRELAND/3154/2016",        "vaccine_type": "previous", "?": "Crick surrogate for BRISBANE/60/2008"},
-  {"?N": "vaccine", "name": "MARYLAND/15/2016",       "vaccine_type": "current"},
-  {"N": "vaccine", "name": "COLORADO/6/2017",        "vaccine_type": "previous", "vaccine_year": "2018-03-01", "?": "http://www.who.int/influenza/vaccines/virus/recommendations/2018_19_north/en/"},
-  {"?N": "vaccine", "name": "PARIS/1762/2009",          "vaccine_type": "current", "?": "not used by Crick anymore, B/Ireland/3154/2016 is used instead (2017-08-21)"},
-  {"?N": "vaccine", "name": "IOWA/6/2017",              "vaccine_type": "surrogate", "?": "QMC2 2018-11-14 requested to mark by David Wentworth (CDC, NIH)"},
-  {"?N": "vaccine", "name": "SOUTH AUSTRALIA/81/2012",  "vaccine_type": "surrogate"},
-  {"N": "vaccine", "name": "WASHINGTON/2/2019",        "vaccine_type": "previous", "vaccine_year": "2019-09"},
-  {"?N": "vaccine", "name": "SICHUAN GAOXIN/531/2018",  "vaccine_type": "current", "vaccine_year": "2019-09"},
-  {"N": "vaccine", "name": "AUSTRIA/1359417/2021",        "vaccine_type": "current", "vaccine_year": "2021-09", "?clade": "3DEL2017+150K+144L 3DEL2017+150K+197D", "?url": "https://cdn.who.int/media/docs/default-source/influenza/who-influenza-recommendations/vcm-southern-hemisphere-recommendation-2022/202109_recommendation.pdf"}
+  {"N": "vaccine", "name": "MALAYSIA/2506/2004",                           "vaccine_type": "previous", "vaccine_year": "2006"},
+  {"N": "vaccine", "name": "BRISBANE/60/2008",                             "vaccine_type": "previous", "vaccine_year": "2009"},
+  {"N": "vaccine", "name": "IRELAND/3154/2016",                            "vaccine_type": "previous", "?": "Crick surrogate for BRISBANE/60/2008"},
+  {"?N": "vaccine", "name": "MARYLAND/15/2016",                            "vaccine_type": "current"},
+  {"N": "vaccine", "name": "COLORADO/6/2017",                              "vaccine_type": "previous", "vaccine_year": "2018-03-01", "?": "http://www.who.int/influenza/vaccines/virus/recommendations/2018_19_north/en/"},
+  {"?N": "vaccine", "name": "PARIS/1762/2009",                             "vaccine_type": "current", "?": "not used by Crick anymore, B/Ireland/3154/2016 is used instead (2017-08-21)"},
+  {"?N": "vaccine", "name": "IOWA/6/2017",                                 "vaccine_type": "surrogate", "?": "QMC2 2018-11-14 requested to mark by David Wentworth (CDC, NIH)"},
+  {"?N": "vaccine", "name": "SOUTH AUSTRALIA/81/2012",                     "vaccine_type": "surrogate"},
+  {"N": "vaccine", "name": "WASHINGTON/2/2019",                            "vaccine_type": "previous", "vaccine_year": "2019-09"},
+  {"?N": "vaccine", "name": "SICHUAN GAOXIN/531/2018",                     "vaccine_type": "current", "vaccine_year": "2019-09"},
+  {"N": "vaccine", "name": "AUSTRIA/1359417/2021",      "passage": "egg",  "vaccine_type": "current", "vaccine_year": "2021-09", "?clade": "3DEL2017+150K+144L 3DEL2017+150K+197D", "?url": "https://cdn.who.int/media/docs/default-source/influenza/who-influenza-recommendations/vcm-southern-hemisphere-recommendation-2022/202109_recommendation.pdf"},
+  {"N": "vaccine", "name": "CONNECTICUT/1/2021",        "passage": "cell", "vaccine_type": "current", "vaccine_year": "2022-09"},
+  {"N": "vaccine", "name": "SINGAPORE/WUH4618/2021",    "passage": "cell", "vaccine_type": "current", "vaccine_year": "2022-09"}
  ],
 
  "vaccines-B/Yam": [
